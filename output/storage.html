@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="zh-cn" lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>存储文档 | Azure</title>
+    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <script src="./video-center_files/corejs.js?v=20150813043734" type="text/javascript"></script>
+    <script type="text/javascript" src="./script/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./script/responsive.js"></script>
+    <link href="./video-center_files/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="./video-center_files/azuremediaplayer.min.js"></script>
+    <script>
+        amp.options.flashSS.swf = "http://amp.azure.net/libs/amp/1.1.1/techs/StrobeMediaPlayback.2.0.swf"
+        amp.options.flashSS.plugin = "http://amp.azure.net/libs/amp/1.1.1/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf"
+        amp.options.silverlightSS.xap = "http://amp.azure.net/libs/amp/1.1.1/techs/SmoothStreamingPlayer.xap"
+    </script>
+    <script>
+        var navigationJsonStr = '{"service": " \u5b58\u50a8 ", "navigation": [{"group": "\u6982\u8ff0", "articles": [{"id": "link_about_storage_introduction", "title": " \u5b58\u50a8\u5668\u7b80\u4ecb ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-introduction/"}, {"id": "link_about_get_started_storage", "title": " \u53ea\u9700 5 \u5206\u949f\u5373\u53ef\u8bd5\u7528\u5b58\u50a8\u5668 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-getting-started-guide/"}, {"id": "link_about_pricing", "title": " Azure \u5b58\u50a8\u5668\u5b9a\u4ef7 ", "link": "/zh-cn/pricing/details/storage/"}, {"id": "link_about_case_studies", "title": " Azure \u5b58\u50a8\u5668\u6848\u4f8b\u7814\u7a76 ", "link": "/zh-cn/services/storage/"}, {"id": "link_about_support", "title": " \u9488\u5bf9\u5b58\u50a8\u5668\u7684\u793e\u533a\u652f\u6301 ", "link": "http://stackoverflow.com/questions/tagged/windows-azure-storage"}], "id": "area_about_storage"}, {"group": "\u5f00\u59cb\u4f7f\u7528", "articles": [{"id": "link_get_started_about_azure_storage_accounts", "title": " \u521b\u5efa\u5b58\u50a8\u5e10\u6237 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-create-storage-account/"}, {"id": "link_get_started_use_blob_storage_on_net", "title": " Blob \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/"}, {"id": "link_get_started_use_table_storage_on_net", "title": " \u8868\u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-dotnet-how-to-use-tables/"}, {"id": "link_get_started_use_queue_storage_on_net", "title": " \u961f\u5217\u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-dotnet-how-to-use-queues/"}, {"id": "link_get_started_use_file_storage", "title": " \u6587\u4ef6\u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-dotnet-how-to-use-files/"}], "id": "area_get_started"}, {"group": "\u7ba1\u7406\u5b58\u50a8\u5668", "articles": [{"id": "link_manage_powershell", "title": " \u5c06 Azure PowerShell \u4e0e\u5b58\u50a8\u5668\u914d\u5408\u4f7f\u7528 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-powershell-guide-full/"}, {"id": "link_manage_azcopy", "title": " AZCopy \u5b9e\u7528\u7a0b\u5e8f\u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-use-azcopy/"}, {"id": "link_manage_xplat", "title": " \u5c06 Azure CLI \u4e0e\u5b58\u50a8\u7a7a\u95f4\u914d\u5408\u4f7f\u7528 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-azure-cli/"}, {"id": "link_manage_automation", "title": " \u5c06 Azure \u81ea\u52a8\u5316\u4e0e\u5b58\u50a8\u7a7a\u95f4\u914d\u5408\u4f7f\u7528 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/automation-manage-storage/"}], "id": "area_manage"}, {"group": "\u9488\u5bf9\u4e91\u8fdb\u884c\u8bbe\u8ba1", "articles": [{"id": "link_design_cloud_scalability_targets", "title": " \u5b58\u50a8\u5668\u53ef\u4f38\u7f29\u6027\u548c\u6027\u80fd\u76ee\u6807 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-scalability-targets/"}, {"id": "link_design_cloud_performance_checklist", "title": " \u6027\u80fd\u548c\u53ef\u4f38\u7f29\u6027\u6e05\u5355 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-performance-checklist/"}, {"id": "link_design_cloud_concurrency", "title": " \u8bbe\u8ba1\u5e76\u53d1\u5e94\u7528\u7a0b\u5e8f ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-concurrency/"}, {"id": "link_design_cloud_availability", "title": " \u9488\u5bf9\u9ad8\u53ef\u7528\u6027\u8fdb\u884c\u8bbe\u8ba1 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-redundancy/"}], "id": "area_design_cloud"}, {"group": "\u9488\u5bf9\u5b89\u5168\u6027\u8fdb\u884c\u8bbe\u8ba1", "articles": [{"id": "link_design_security_authentication", "title": " \u5bf9\u5b58\u50a8\u8bf7\u6c42\u8fdb\u884c\u9a8c\u8bc1 ", "link": "https://msdn.microsoft.com/library/azure/dd179428.aspx"}, {"id": "link_design_security_manage_access", "title": " \u7ba1\u7406\u8bbf\u95ee ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-manage-access-to-resources/"}, {"id": "link_design_security_sas_tutorial", "title": " \u4f7f\u7528\u5171\u4eab\u8bbf\u95ee\u7b7e\u540d\u59d4\u6258\u5e10\u6237\u8bbf\u95ee ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-dotnet-shared-access-signature-part-1/"}, {"id": "link_design_security_client_side_encryption", "title": " \u901a\u8fc7\u5ba2\u6237\u7aef\u5e93\u52a0\u5bc6\u6570\u636e ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-client-side-encryption/"}], "id": "area_design_security"}, {"group": "\u4f7f\u7528\u5b58\u50a8\u5668\u8fdb\u884c\u5f00\u53d1", "articles": [{"id": "link_develop_general_connection_string", "title": " \u914d\u7f6e\u8fde\u63a5\u5b57\u7b26\u4e32 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-configure-connection-string/"}, {"id": "link_develop_general_emulator", "title": " \u4f7f\u7528\u5b58\u50a8\u6a21\u62df\u5668\u8fdb\u884c\u6d4b\u8bd5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-use-emulator/"}, {"id": "link_develop_general_samples", "title": " Azure \u5b58\u50a8\u7a7a\u95f4\u793a\u4f8b ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-samples/"}], "id": "area_develop_general"}, {"group": "\u4f7f\u7528 Blob \u8fdb\u884c\u5f00\u53d1", "articles": [{"id": "link_develop_blobs_concepts", "title": " Blob \u5b58\u50a8\u6982\u5ff5 ", "link": "https://msdn.microsoft.com/library/azure/dd179376.aspx"}, {"id": "link_develop_blobs_managed_ref", "title": " .NET API \u53c2\u8003 ", "link": "https://msdn.microsoft.com/library/azure/dn261237.aspx"}, {"id": "link_develop_blobs_rest", "title": " Blob \u670d\u52a1 REST API ", "link": "https://msdn.microsoft.com/library/azure/dd135733.aspx"}, {"id": "link_develop_blobs_support", "title": " \u9488\u5bf9 blob \u7684\u793e\u533a\u652f\u6301 ", "link": "https://stackoverflow.com/questions/tagged/windows-azure-storage"}], "id": "area_develop_blobs"}, {"group": "\u4f7f\u7528\u8868\u8fdb\u884c\u5f00\u53d1", "articles": [{"id": "link_develop_tables_design_guide", "title": " \u8868\u5b58\u50a8\u8bbe\u8ba1\u6307\u5357 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-table-design-guide/"}, {"id": "link_develop_tables_concepts", "title": " \u8868\u5b58\u50a8\u6982\u5ff5 ", "link": "https://msdn.microsoft.com/library/azure/dd179463.aspx"}, {"id": "link_develop_tables_managed_ref", "title": " .NET API \u6587\u6863 ", "link": "https://msdn.microsoft.com/library/azure/dn261237.aspx"}, {"id": "link_develop_tables_rest", "title": " \u8868\u670d\u52a1 REST API ", "link": "https://msdn.microsoft.com/library/azure/dd179423.aspx"}, {"id": "link_develop_tables_support", "title": " \u8868\u652f\u6301 ", "link": "https://stackoverflow.com/questions/tagged/azure-storage-tables"}], "id": "area_develop_tables"}, {"group": "\u4f7f\u7528\u961f\u5217\u8fdb\u884c\u5f00\u53d1", "articles": [{"id": "link_develop_queues_concepts", "title": " \u961f\u5217\u5b58\u50a8\u6982\u5ff5 ", "link": "https://msdn.microsoft.com/library/azure/dd179353.aspx"}, {"id": "link_develop_queues_managed_ref", "title": " .NET API \u6587\u6863 ", "link": "https://msdn.microsoft.com/library/azure/dn261237.aspx"}, {"id": "link_develop_queues_rest", "title": " \u961f\u5217\u670d\u52a1 REST API ", "link": "https://msdn.microsoft.com/library/azure/dd179363.aspx"}, {"id": "link_develop_queues_support", "title": " \u9488\u5bf9\u961f\u5217\u7684\u793e\u533a\u652f\u6301 ", "link": "https://stackoverflow.com/questions/tagged/azure-storage-queues"}], "id": "area_develop_queues"}, {"group": "\u4f7f\u7528\u6587\u4ef6\u8fdb\u884c\u5f00\u53d1", "articles": [{"id": "link_develop_files_concepts", "title": " \u6587\u4ef6\u5b58\u50a8\u6982\u5ff5 ", "link": "https://msdn.microsoft.com/library/azure/dn166972.aspx"}, {"id": "link_develop_files_managed_ref", "title": " .NET API \u53c2\u8003 ", "link": "https://msdn.microsoft.com/library/azure/dn261237.aspx"}, {"id": "link_develop_files_rest", "title": " \u6587\u4ef6\u670d\u52a1 REST API ", "link": "https://msdn.microsoft.com/library/azure/dn167006.aspx"}], "id": "area_develop_files"}, {"group": "\u64cd\u4f5c\u6307\u5357", "articles": [{"id": "link_operate_monitor", "title": " \u5728\u7ba1\u7406\u95e8\u6237\u4e2d\u914d\u7f6e\u76d1\u63a7 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-monitor-storage-account/"}, {"id": "link_operate_enable_metrics", "title": " \u542f\u7528\u548c\u67e5\u770b\u6307\u6807 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-enable-and-view-metrics/"}, {"id": "link_operate_analytics", "title": " \u5b58\u50a8\u5206\u6790 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-analytics/"}, {"id": "link_operate_diagnose", "title": " \u5bf9 Azure \u5b58\u50a8\u5668\u8fdb\u884c\u76d1\u89c6\u3001\u8bca\u65ad\u548c\u6545\u969c\u6392\u9664 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-monitoring-diagnosing-troubleshooting/"}, {"id": "link_operate_troubleshooting", "title": " \u6545\u969c\u8bca\u65ad\u6559\u7a0b ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-e2e-troubleshooting/"}, {"id": "link_operate_custom_domain", "title": " \u914d\u7f6e\u81ea\u5b9a\u4e49\u57df\u540d ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-custom-domain-name/"}, {"id": "link_operate_import_export", "title": " \u4f7f\u7528\u5bfc\u5165/\u5bfc\u51fa\u670d\u52a1\u5c06 blob \u6570\u636e\u4f20\u8f93\u5230 Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-import-export-service/"}], "id": "area_operate"}, {"group": "Azure \u9ad8\u7ea7\u5b58\u50a8\u5668", "articles": [{"id": "link_premium_storage_intro", "title": " \u9ad8\u7ea7\u5b58\u50a8\u5668\u7b80\u4ecb ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-premium-storage-preview-portal/"}, {"id": "link_premium_storage_migration", "title": " \u8fc1\u79fb\u5230\u9ad8\u7ea7\u5b58\u50a8\u5668 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/storage-migration-to-premium-storage/"}], "id": "area_premium_storage"}], "id": "Storage"}'
+        var activeActicleId = null;
+
+        var pageId = null;
+        function renderNavigation(navigationJsonStr, activeActicleId) {
+            navigationJson = JSON.parse(navigationJsonStr);
+            mainDiv = document.getElementById("wa-navigationLeft");
+
+            serviceTitle = document.createElement("a");
+            serviceTitle.id = navigationJson.id;
+            serviceTitle.innerHTML = navigationJson.service;
+            serviceTitle.className = "toggler";
+            mainDiv.appendChild(serviceTitle);
+
+            mainUl = document.createElement("ul");
+            mainUl.className = "toggled";
+            mainDiv.appendChild(mainUl);
+
+            for (var i = 0; i < navigationJson.navigation.length; i++) {
+                groupLi = document.createElement("li");
+                groupLi.id = navigationJson.navigation[i].id + "_header";
+                groupLi.setAttribute("data-control", "toggle");
+                groupLi.setAttribute("data-tag-name", navigationJson.navigation[i].id);
+                groupLi.setAttribute("data-service-name", navigationJson.id);
+                mainUl.appendChild(groupLi);
+                groupTitle = document.createElement("a");
+                groupTitle.innerHTML = navigationJson.navigation[i].group;
+                groupTitle.className = "toggler";
+                groupLi.appendChild(groupTitle);
+                groupUl = document.createElement("ul");
+                groupUl.id = navigationJson.navigation[i].id;
+                groupUl.className = "toggled";
+                groupLi.appendChild(groupUl);
+                for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                    articleLi = document.createElement("li");
+                    groupUl.appendChild(articleLi);
+                    articleLink = document.createElement("a");
+                    articleLink.href = navigationJson.navigation[i].articles[j].link;
+                    articleLink.innerHTML = navigationJson.navigation[i].articles[j].title;
+                    articleLink.id = navigationJson.navigation[i].articles[j].id;
+                    articleLink.setAttribute("data-link-service-name", navigationJson.id);
+                    articleLink.setAttribute("data-link-tag-name", navigationJson.navigation[i].articles[j].id);
+                    articleLi.appendChild(articleLink);
+                }
+            }
+            if (activeActicleId == null) {
+                document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
+                pageId = navigationJson.navigation[0].id + "_header";
+            }
+            else {
+                for (var i = 0; i < navigationJson.navigation.length; i++) {
+                    for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                        if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
+                            document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
+                            pageId = navigationJson.navigation[i].id + "_header";
+                            document.getElementById(activeActicleId).style.color = "#00abec";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        function dropdownSelectChange() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            contentSelected = document.getElementById('wa-dropdown-value');
+            document.getElementById('wa-button-link').href = dropdownSelect.value;
+            contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
+        }
+        function checkDropdownMenuHasMoreThanOneOption() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            if (dropdownSelect.options.length <= 1) {
+                dropdownSelect.disabled = "disabled"
+            }
+        }
+    </script>
+</head>
+<body id="top" class="">
+    <div class="wa-container-documentation wa-container-nested-documentation">
+        <section class="wa-section wa-section-micro">
+            <div class="wa-content wa-content-documentation wa-content-4up">
+                <div class="wa-spacer wa-spacer-docSide">
+                    <div id="wa-navigationLeft" class="wa-navigationLeft" data-control="toggle">
+
+                    </div>
+                    <script>
+                        renderNavigation(navigationJsonStr, activeActicleId);
+                    </script>
+                </div>
+                <div class="wa-spacer wa-spacer-3down wa-spacer-docContent">
+                    <div class="wa-content">
+                        <h1>
+                            存储文档
+                        </h1>
+                        <h5>
+                            了解如何设置、迁移和管理虚拟机
+                        </h5>
+                        <label for="dropdown-cta" class="wa-dropdown-label">创建运行以下系统的 VM：</label>
+                        <div class="wa-dropdown-container wa-dropdown-medium">
+    <select id="dropdown-cta" class="wa-dropdown" data-control="dropdown dropdown-linker" data-linker="cta" onchange="dropdownSelectChange()">
+        <option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/">
+    Blob 存储
+</option>
+<option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-files/">
+    文件存储
+</option>
+<option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-tables/">
+    表存储
+</option>
+<option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-queues/">
+    队列存储
+</option>
+
+    </select>
+    <script>
+                                checkDropdownMenuHasMoreThanOneOption();
+    </script>
+
+    <span id="wa-dropdown-value" class="wa-dropdown-value">Blob 存储</span><span class="wa-dropdown-arrow"></span>
+</div>
+<a id="wa-button-link" data-service-name="virtual-machines" href="/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/" class="wa-button wa-button-primary wa-button-mini" data-linker="cta">入门教程</a>
+
+                    </div>
+                    <div class="wa-content wa-content-divided sub-hero-heading">
+                        <h2>
+                            存储视频
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+                        <div class="wa-spacer">
+    <a href="http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/45bd1a47-7e9b-4ec0-9867-46dfb17b5c9d/Azure%E9%AB%98%E7%BA%A7%E5%AD%98%E5%82%A8%E4%BB%8B%E7%BB%8D.ism/Manifest" data-control="" data-expanding="false" class="wa-video-thumbnail _storage-video-popup" title="Azure高级存储简介">
+        <img src="./img/Azure高级存储简介.png" alt="Azure高级存储简介" class="thumbnail" /><img class="play-icon" src="./img/VideoPlay.svg" />
+        <span class="metadata"><span class="date"><span>2015年7月14日</span><span>5' 59"</span></span></span>
+    </a>
+    <p>
+        主要介绍了什么是Azure高级存储，高级存储的功能，与普通存储比较的优势，高级存储的可扩展性，高级存储的价格以及如何使用PowerShell创建高级存储账号及DS系列虚拟机。
+    </p>
+</div>
+<div class="wa-spacer">
+    <a href="http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/b7f68031-2f21-40c1-a0aa-e65f2deb2f1c/1.%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8.ism/Manifest" data-control="" data-expanding="false" class="wa-video-thumbnail _storage-video-popup" title="在Azure门户中管理存储">
+        <img src="./img/在Azure门户中管理存储.png" alt="在Azure门户中管理存储" class="thumbnail" /><img class="play-icon" src="./img/VideoPlay.svg" />
+        <span class="metadata"><span class="date"><span>2015年6月18日</span><span>4' 48"</span></span></span>
+    </a>
+    <p>
+        什么是存储，如何在Azure中创建存储，统一云存储，异地灾备，RESTful API
+    </p>
+</div>
+<div class="wa-spacer">
+    <a href="http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/200c5543-b88e-4949-8855-b5a979046619/Azure%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8F%8A%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.ism/Manifest" data-control="" data-expanding="false" class="wa-video-thumbnail _storage-video-popup" title="Azure管理存储文件及管理工具">
+        <img src="./img/Azure管理存储文件及管理工具.png" alt="Azure管理存储文件及管理工具" class="thumbnail" /><img class="play-icon" src="./img/VideoPlay.svg" />
+        <span class="metadata"><span class="date"><span>2015年6月18日</span><span>4' 47"</span></span></span>
+    </a>
+    <p>
+        使用Visual Studio远程管理Azure存储文件
+    </p>
+</div>
+
+                    </div>
+                    <script src="./video-center_files/videocenter.js"></script>
+                    <div class="wa-content">
+                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                    </div>
+                    <div class="wa-content wa-content-divided">
+                        <h2>
+                            最新存储更新<a href="/test"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            General availability: G-Series and GS-Series virtual machines in multiple new regions
+        </h4>
+        <p class="article-date">
+            2015/8/19
+        </p>
+        <p>
+            The G-Series provides more memory and more local solid-state drive storage than other Azure virtual machines. In addition, the GS-Series supports Premium storage across the East US 2, West US, and West Europe regions.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            HPC Pack support for Linux
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            With the HPC Pack 2012 R2 Update 2, HPC Pack supports Linux virtual machines running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            Azure support for Linux RDMA
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            We now support Linux remote direct memory access (RDMA) technology, enabling scientists and engineers to solve complex problems by using simulations running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+
+                    <div class="wa-content">
+                        <a href="/test" class="wa-arrowLink">查看更多服务更新</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

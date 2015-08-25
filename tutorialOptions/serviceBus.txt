@@ -1,0 +1,2 @@
+Get started building a messaging solution using Service Bus queues
+https://azure.microsoft.com/zh-cn/documentation/articles/cloud-services-dotnet-multi-tier-app-using-service-bus-queues/

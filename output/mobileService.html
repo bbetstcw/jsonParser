@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="zh-cn" lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>移动服务文档 | Azure</title>
+    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <script src="./video-center_files/corejs.js?v=20150813043734" type="text/javascript"></script>
+    <script type="text/javascript" src="./script/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./script/responsive.js"></script>
+    <link href="./video-center_files/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="./video-center_files/azuremediaplayer.min.js"></script>
+    <script>
+        amp.options.flashSS.swf = "http://amp.azure.net/libs/amp/1.1.1/techs/StrobeMediaPlayback.2.0.swf"
+        amp.options.flashSS.plugin = "http://amp.azure.net/libs/amp/1.1.1/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf"
+        amp.options.silverlightSS.xap = "http://amp.azure.net/libs/amp/1.1.1/techs/SmoothStreamingPlayer.xap"
+    </script>
+    <script>
+        var navigationJsonStr = '{"service": " \u79fb\u52a8\u670d\u52a1 ", "navigation": [{"group": "\u6982\u8ff0", "articles": [{"id": "link_valueprop_enterprise_apps", "title": " \u4e3a\u4f55\u5c06\u79fb\u52a8\u670d\u52a1\u7528\u4e8e\u6211\u7684\u5e94\u7528 ", "link": "/zh-cn/documentation/services/mobile-services/"}, {"id": "link_valueprop_migrate", "title": " \u4e3a\u4f55\u5c06\u79fb\u52a8\u670d\u52a1\u7528\u4e8e\u5458\u5de5\u5e94\u7528 ", "link": "/zh-cn/campaigns/mobile-employee-apps/"}], "id": "area_valueprop"}, {"group": "\u5f00\u59cb\u4f7f\u7528", "articles": [{"id": "link_getstarted_ios", "title": " iOS \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-get-started/"}, {"id": "link_getstarted_xamarin_android", "title": " Xamarin Android \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/partner-xamarin-mobile-services-android-get-started/"}, {"id": "link_getstarted_xamarin_ios", "title": " Xamarin iOS \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/partner-xamarin-mobile-services-ios-get-started/"}, {"id": "link_getstarted_android", "title": " Android \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-android-get-started/"}, {"id": "link_getstarted_windows", "title": " Windows \u5165\u95e8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-get-started/"}, {"id": "link_getstarted_existing_app", "title": " \u5c06\u6211\u7684\u73b0\u6709\u5e94\u7528\u8fde\u63a5\u5230\u79fb\u52a8\u670d\u52a1 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-get-started-data/"}], "id": "area_getstarted"}, {"group": "\u5b58\u50a8\u6570\u636e", "articles": [{"id": "link_data_sqldb", "title": " \u5c06\u5e94\u7528\u8fde\u63a5\u5230 SQL Database ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-use-existing-sql-database/"}, {"id": "link_data_table_storage", "title": " \u5c06\u5e94\u7528\u8fde\u63a5\u5230\u8868\u5b58\u50a8 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-store-data-table-storage/"}, {"id": "link_data_docdb", "title": " \u5c06\u5e94\u7528\u8fde\u63a5\u5230 DocumentDB ", "link": "http://giventocode.com/how-to-use-azure-documentdb-with-azure-mobile-services#.VOZ7csJ0x9C"}, {"id": "link_data_mongodb", "title": " \u5c06\u5e94\u7528\u8fde\u63a5\u5230 Mongo DB ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-use-non-relational-data-store/"}, {"id": "link_data_on_prem", "title": " \u5c06\u5e94\u7528\u8fde\u63a5\u5230\u672c\u5730 SQL Database ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-hybrid-connections-get-started/"}, {"id": "link_data_blob_storage", "title": " Store files with Azure Storage ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-windows-store-dotnet-upload-data-blob-storage/"}], "id": "area_data"}, {"group": "\u542f\u7528\u8131\u673a\u548c\u540c\u6b65", "articles": [{"id": "link_offline_sync_offline", "title": " \u540c\u6b65\u5e94\u7528\u6570\u636e\u5e76\u8131\u673a\u5de5\u4f5c ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-get-started-offline-data/"}, {"id": "link_offline_conflicts", "title": " \u5229\u7528\u8131\u673a\u6570\u636e\u540c\u6b65\u5904\u7406\u51b2\u7a81 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-handling-conflicts-offline-data/"}], "id": "area_offline"}, {"group": "\u5bf9\u7528\u6237\u8fdb\u884c\u8eab\u4efd\u9a8c\u8bc1", "articles": [{"id": "link_auth_add_aad", "title": " \u5411\u5e94\u7528\u6dfb\u52a0 Active Directory \u8eab\u4efd\u9a8c\u8bc1 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-ios-adal-sso-authentication/"}, {"id": "link_auth_add_facebook", "title": " \u5411\u5e94\u7528\u6dfb\u52a0 Facebook\u3001Google \u6216 Twitter \u8eab\u4efd\u9a8c\u8bc1 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-get-started-users/"}, {"id": "link_auth_add_custom", "title": " \u5411\u5e94\u7528\u6dfb\u52a0\u81ea\u5b9a\u4e49\u8eab\u4efd\u9a8c\u8bc1 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-get-started-custom-authentication/"}], "id": "area_auth"}, {"group": "\u53d1\u9001\u63a8\u9001\u901a\u77e5", "articles": [{"id": "link_push_add", "title": " \u5411\u60a8\u7684\u5e94\u7528\u7a0b\u5e8f\u6dfb\u52a0\u63a8\u9001\u901a\u77e5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-javascript-backend-ios-get-started-push/"}, {"id": "link_push_send_auth", "title": " \u5411\u5df2\u9a8c\u8bc1\u7684\u7528\u6237\u53d1\u9001\u63a8\u9001\u901a\u77e5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-javascript-backend-ios-push-notifications-app-users/"}, {"id": "link_push_send_localized", "title": " \u53d1\u9001\u4e2a\u6027\u5316\u548c\u672c\u5730\u5316\u63a8\u9001\u901a\u77e5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/notification-hubs-ios-send-localized-breaking-news/"}, {"id": "link_push_troubleshoot", "title": " \u5bf9\u53d1\u9001\u63a8\u9001\u8fdb\u884c\u6545\u969c\u6392\u9664 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/notification-hubs-diagnosing/"}], "id": "area_push"}, {"group": "\u5982\u4f55\u7ba1\u7406", "articles": [{"id": "link_manage_custom_api", "title": " Define a custom endpoint ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-call-custom-api/"}, {"id": "link_manage_multiple_clients", "title": " Use multiple clients with a single mobile service ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-how-to-use-multiple-clients-single-service/"}, {"id": "link_manage_scalable_sqldb", "title": " \u6784\u5efa\u4e0e Azure SQL Database \u901a\u4fe1\u7684\u53ef\u6269\u5c55\u5e94\u7528 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-sql-scale-guidance/"}, {"id": "link_manage_disaster_recovery", "title": " \u4e3a\u707e\u96be\u6062\u590d\u505a\u51c6\u5907 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-disaster-recovery/"}], "id": "area_manage"}, {"group": "Automate ", "articles": [{"id": "link_automation_cli", "title": " Deploy and manage a mobile service using command-line tools ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-manage-command-line-interface/"}, {"id": "link_automation_source_control", "title": " Deploy a mobile service using source control ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-store-scripts-source-control/"}, {"id": "link_automation_schedule", "title": " Execute backend tasks on a schedule ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-schedule-recurring-tasks/"}], "id": "area_automation"}, {"group": "\u8fd0\u884c\u793a\u4f8b", "articles": [{"id": "link_sample_field_engineer", "title": " Field Engineer \u5e94\u7528 ", "link": "https://code.msdn.microsoft.com/Field-Engineer-501df99d/"}, {"id": "link_sample_sales_assist", "title": " SalesAssist \u5e94\u7528 ", "link": "https://code.msdn.microsoft.com/Sales-Assistant-465dc8b5/"}, {"id": "link_sample_offline_todo", "title": " \u8131\u673a Todo \u5217\u8868\u5e94\u7528 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-windows-store-dotnet-get-started-offline-data/"}], "id": "area_samples"}, {"group": "\u53c2\u8003\u8d44\u6e90", "articles": [{"id": "link_tools_backend_vs", "title": " \u5728 Visual Studio \u4e2d\u5411\u5e94\u7528\u6dfb\u52a0\u79fb\u52a8\u540e\u7aef ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-data/"}, {"id": "link_tools_ios", "title": " iOS \u5ba2\u6237\u7aef\u5e93 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-ios-how-to-use-client-library/"}, {"id": "link_tools_android", "title": " Android \u5ba2\u6237\u7aef\u5e93 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-android-how-to-use-client-library/"}, {"id": "link_tools_xamarin_android", "title": " Xamarin \u5ba2\u6237\u7aef\u5e93\uff08Android \u548c iOS\uff09 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/partner-xamarin-mobile-services-how-to-use-client-library/"}, {"id": "link_tools_windows_universal", "title": " Windows .NET \u5e94\u7528\u5ba2\u6237\u7aef\u5e93 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-windows-dotnet-how-to-use-client-library/"}, {"id": "link_tools_dot_net", "title": " .NET \u540e\u7aef\u5e93 ", "link": "https://msdn.microsoft.com/library/azure/dn632690.aspx"}, {"id": "link_tools_server_scripts", "title": " JavaScript backend library ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/mobile-services-how-to-use-server-scripts/"}], "id": "area_tools"}, {"group": "Platform dev centers", "articles": [{"id": "link_dev_center_android", "title": " Android apps ", "link": "/zh-cn/develop/mobile/android/"}, {"id": "link_dev_center_ios", "title": " iOS apps ", "link": "/zh-cn/develop/mobile/ios/"}, {"id": "link_dev_center_windows", "title": " Windows apps ", "link": "/zh-cn/develop/mobile/windows/"}, {"id": "link_dev_center_xamarin", "title": " Xamarin apps ", "link": "/zh-cn/develop/mobile/xamarin/"}], "id": "area_dev_centers"}], "id": "MobileServices"}'
+        var activeActicleId = null;
+
+        var pageId = null;
+        function renderNavigation(navigationJsonStr, activeActicleId) {
+            navigationJson = JSON.parse(navigationJsonStr);
+            mainDiv = document.getElementById("wa-navigationLeft");
+
+            serviceTitle = document.createElement("a");
+            serviceTitle.id = navigationJson.id;
+            serviceTitle.innerHTML = navigationJson.service;
+            serviceTitle.className = "toggler";
+            mainDiv.appendChild(serviceTitle);
+
+            mainUl = document.createElement("ul");
+            mainUl.className = "toggled";
+            mainDiv.appendChild(mainUl);
+
+            for (var i = 0; i < navigationJson.navigation.length; i++) {
+                groupLi = document.createElement("li");
+                groupLi.id = navigationJson.navigation[i].id + "_header";
+                groupLi.setAttribute("data-control", "toggle");
+                groupLi.setAttribute("data-tag-name", navigationJson.navigation[i].id);
+                groupLi.setAttribute("data-service-name", navigationJson.id);
+                mainUl.appendChild(groupLi);
+                groupTitle = document.createElement("a");
+                groupTitle.innerHTML = navigationJson.navigation[i].group;
+                groupTitle.className = "toggler";
+                groupLi.appendChild(groupTitle);
+                groupUl = document.createElement("ul");
+                groupUl.id = navigationJson.navigation[i].id;
+                groupUl.className = "toggled";
+                groupLi.appendChild(groupUl);
+                for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                    articleLi = document.createElement("li");
+                    groupUl.appendChild(articleLi);
+                    articleLink = document.createElement("a");
+                    articleLink.href = navigationJson.navigation[i].articles[j].link;
+                    articleLink.innerHTML = navigationJson.navigation[i].articles[j].title;
+                    articleLink.id = navigationJson.navigation[i].articles[j].id;
+                    articleLink.setAttribute("data-link-service-name", navigationJson.id);
+                    articleLink.setAttribute("data-link-tag-name", navigationJson.navigation[i].articles[j].id);
+                    articleLi.appendChild(articleLink);
+                }
+            }
+            if (activeActicleId == null) {
+                document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
+                pageId = navigationJson.navigation[0].id + "_header";
+            }
+            else {
+                for (var i = 0; i < navigationJson.navigation.length; i++) {
+                    for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                        if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
+                            document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
+                            pageId = navigationJson.navigation[i].id + "_header";
+                            document.getElementById(activeActicleId).style.color = "#00abec";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        function dropdownSelectChange() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            contentSelected = document.getElementById('wa-dropdown-value');
+            document.getElementById('wa-button-link').href = dropdownSelect.value;
+            contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
+        }
+        function checkDropdownMenuHasMoreThanOneOption() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            if (dropdownSelect.options.length <= 1) {
+                dropdownSelect.disabled = "disabled"
+            }
+        }
+    </script>
+</head>
+<body id="top" class="">
+    <div class="wa-container-documentation wa-container-nested-documentation">
+        <section class="wa-section wa-section-micro">
+            <div class="wa-content wa-content-documentation wa-content-4up">
+                <div class="wa-spacer wa-spacer-docSide">
+                    <div id="wa-navigationLeft" class="wa-navigationLeft" data-control="toggle">
+
+                    </div>
+                    <script>
+                        renderNavigation(navigationJsonStr, activeActicleId);
+                    </script>
+                </div>
+                <div class="wa-spacer wa-spacer-3down wa-spacer-docContent">
+                    <div class="wa-content">
+                        <h1>
+                            移动服务文档
+                        </h1>
+                        <h5>
+                            了解如何设置、迁移和管理虚拟机
+                        </h5>
+                        <label for="dropdown-cta" class="wa-dropdown-label">创建运行以下系统的 VM：</label>
+                        <div class="wa-dropdown-container wa-dropdown-medium">
+    <select id="dropdown-cta" class="wa-dropdown" data-control="dropdown dropdown-linker" data-linker="cta" onchange="dropdownSelectChange()">
+        <option value="/zh-cn/documentation/articles/mobile-services-ios-get-started/">
+    iOS
+</option>
+<option value="/zh-cn/documentation/articles/partner-xamarin-mobile-services-android-get-started/">
+    Xamarin Android
+</option>
+<option value="/zh-cn/documentation/articles/partner-xamarin-mobile-services-ios-get-started/">
+    Xamarin iOS
+</option>
+<option value="/zh-cn/documentation/articles/mobile-services-android-get-started/">
+    Android
+</option>
+<option value="/zh-cn/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-get-started/">
+    Windows
+</option>
+
+    </select>
+    <script>
+                                checkDropdownMenuHasMoreThanOneOption();
+    </script>
+
+    <span id="wa-dropdown-value" class="wa-dropdown-value">iOS</span><span class="wa-dropdown-arrow"></span>
+</div>
+<a id="wa-button-link" data-service-name="virtual-machines" href="/zh-cn/documentation/articles/mobile-services-ios-get-started/" class="wa-button wa-button-primary wa-button-mini" data-linker="cta">入门教程</a>
+
+                    </div>
+                    <div class="wa-content wa-content-divided sub-hero-heading">
+                        <h2>
+                            移动服务视频
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+                        
+                    </div>
+                    <script src="./video-center_files/videocenter.js"></script>
+                    <div class="wa-content">
+                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                    </div>
+                    <div class="wa-content wa-content-divided">
+                        <h2>
+                            最新移动服务更新<a href="/test"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            General availability: G-Series and GS-Series virtual machines in multiple new regions
+        </h4>
+        <p class="article-date">
+            2015/8/19
+        </p>
+        <p>
+            The G-Series provides more memory and more local solid-state drive storage than other Azure virtual machines. In addition, the GS-Series supports Premium storage across the East US 2, West US, and West Europe regions.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            HPC Pack support for Linux
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            With the HPC Pack 2012 R2 Update 2, HPC Pack supports Linux virtual machines running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            Azure support for Linux RDMA
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            We now support Linux remote direct memory access (RDMA) technology, enabling scientists and engineers to solve complex problems by using simulations running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+
+                    <div class="wa-content">
+                        <a href="/test" class="wa-arrowLink">查看更多服务更新</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

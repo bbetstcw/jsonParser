@@ -1,0 +1,13 @@
+active directory
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/0cc10672-17f6-4f26-b964-24174b63349c/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Active%20Directory.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/Active%20Directory/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Active-Directory.png
+
+description:
+在Azure门户中管理Active Directory
+课程系列: 快速入门服务: Active Directory
+视频长度: 4' 21"发布时间: 2015年6月18日
+Windows Azure Directory介绍，添加一个AAD用户，添加一个协同管理员，添加一个自定义域

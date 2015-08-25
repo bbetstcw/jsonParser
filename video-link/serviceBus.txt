@@ -1,0 +1,25 @@
+service bus
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/1bf855e5-fe1a-438c-b607-0dd8d172f4b4/1%20%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Service%20Bus.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/SERVICE%20BUS/1%20%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Service%20Bus.png
+
+description:
+在Azure门户中管理Service Bus
+课程系列: 快速入门服务: 服务总线
+视频长度: 4' 3"发布时间: 2015年6月18日
+Azure Service Bus组件介绍，创建Service Bus，仪表板，删除Service Bus
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/ce7a244b-d806-418a-8fd3-af9851b81831/2%20%E5%9C%A8%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8Service%20Bus.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/SERVICE%20BUS/2%20%E5%9C%A8%E5%BA%94%E7%94%A8%E4%B8%AD%E4%BD%BF%E7%94%A8Service%20Bus.png
+
+description:
+在应用中使用Service Bus
+课程系列: 快速入门服务: 服务总线
+视频长度: 4' 17"发布时间: 2015年6月18日
+创建Service Bus队列，创建代码项目发送队列消息，创建代码项目接收队列消息

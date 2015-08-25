@@ -1,0 +1,4 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/hdinsight-hadoop-linux-get-started/">Linux</option>
+                            <option value="/zh-cn/documentation/articles/hdinsight-get-started/">Windows</option>
+                        </select>

@@ -1,0 +1,49 @@
+websites
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/6f1972e7-a291-4af5-8b39-1ce04eb389c4/1%20%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E7%BD%91%E7%AB%99.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%BD%91%E7%AB%99/1-%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E7%BD%91%E7%AB%99.png
+
+description:
+在Azure门户中管理网站
+课程系列: 快速入门服务: 网站
+视频长度: 4' 38"发布时间: 2015年6月18日
+Azure网站介绍，Azure网站操作
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/8cc582d3-8e8e-4960-9c38-17e4635c023c/2%20%E9%83%A8%E7%BD%B2Azure%E7%BD%91%E7%AB%99.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%BD%91%E7%AB%99/2-%E9%83%A8%E7%BD%B2Azure%E7%BD%91%E7%AB%99.png
+
+description:
+部署Azure网站
+课程系列: 快速入门服务: 网站
+视频长度: 4' 43"发布时间: 2015年6月18日
+Azure部署网站介绍，使用Visual Studio部署网站。
+
+link3:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/32b03f7c-04b2-477d-b0e7-e040e3c0dcab/3%20Azure%E7%BD%91%E7%AB%99%E7%9A%84%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%BD%91%E7%AB%99/3-Azure%E7%BD%91%E7%AB%99%E7%9A%84%E6%89%A9%E5%B1%95%E5%8A%9F%E8%83%BD.png
+
+description:
+Azure网站的扩展功能
+课程系列: 快速入门服务: 网站
+视频长度: 5' 1"发布时间: 2015年6月18日
+网站缩放介绍，网站缩放操作，定制计划
+
+link4:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/aba73aec-9690-4e10-83bb-676a165d52f1/4%20Azure%E7%BD%91%E7%AB%99%E7%9A%84WebJob%E5%8A%9F%E8%83%BD.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%BD%91%E7%AB%99/Azure%E7%BD%91%E7%AB%99%E7%9A%84WebJob%E5%8A%9F%E8%83%BD.png
+
+description:
+Azure网站的Webjob功能
+课程系列: 快速入门服务: 网站
+视频长度: 3' 57"发布时间: 2015年6月18日
+Azure网站WebJob介绍，WebJob实操

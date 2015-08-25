@@ -1,0 +1,2 @@
+Get Started with CDN on Azure
+https://azure.microsoft.com/zh-cn/documentation/articles/cdn-how-to-use-cdn/

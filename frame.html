@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html class="zh-cn" lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>{{service_name}}文档 | Azure</title>
+    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <script src="./video-center_files/corejs.js?v=20150813043734" type="text/javascript"></script>
+    <script type="text/javascript" src="./script/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./script/responsive.js"></script>
+    <link href="./video-center_files/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="./video-center_files/azuremediaplayer.min.js"></script>
+    <script>
+        amp.options.flashSS.swf = "http://amp.azure.net/libs/amp/1.1.1/techs/StrobeMediaPlayback.2.0.swf"
+        amp.options.flashSS.plugin = "http://amp.azure.net/libs/amp/1.1.1/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf"
+        amp.options.silverlightSS.xap = "http://amp.azure.net/libs/amp/1.1.1/techs/SmoothStreamingPlayer.xap"
+    </script>
+    <script>
+        var navigationJsonStr = '{{navigationJsonStr}}'
+        var activeActicleId = null;
+
+        var pageId = null;
+        function renderNavigation(navigationJsonStr, activeActicleId) {
+            navigationJson = JSON.parse(navigationJsonStr);
+            mainDiv = document.getElementById("wa-navigationLeft");
+
+            serviceTitle = document.createElement("a");
+            serviceTitle.id = navigationJson.id;
+            serviceTitle.innerHTML = navigationJson.service;
+            serviceTitle.className = "toggler";
+            mainDiv.appendChild(serviceTitle);
+
+            mainUl = document.createElement("ul");
+            mainUl.className = "toggled";
+            mainDiv.appendChild(mainUl);
+
+            for (var i = 0; i < navigationJson.navigation.length; i++) {
+                groupLi = document.createElement("li");
+                groupLi.id = navigationJson.navigation[i].id + "_header";
+                groupLi.setAttribute("data-control", "toggle");
+                groupLi.setAttribute("data-tag-name", navigationJson.navigation[i].id);
+                groupLi.setAttribute("data-service-name", navigationJson.id);
+                mainUl.appendChild(groupLi);
+                groupTitle = document.createElement("a");
+                groupTitle.innerHTML = navigationJson.navigation[i].group;
+                groupTitle.className = "toggler";
+                groupLi.appendChild(groupTitle);
+                groupUl = document.createElement("ul");
+                groupUl.id = navigationJson.navigation[i].id;
+                groupUl.className = "toggled";
+                groupLi.appendChild(groupUl);
+                for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                    articleLi = document.createElement("li");
+                    groupUl.appendChild(articleLi);
+                    articleLink = document.createElement("a");
+                    articleLink.href = navigationJson.navigation[i].articles[j].link;
+                    articleLink.innerHTML = navigationJson.navigation[i].articles[j].title;
+                    articleLink.id = navigationJson.navigation[i].articles[j].id;
+                    articleLink.setAttribute("data-link-service-name", navigationJson.id);
+                    articleLink.setAttribute("data-link-tag-name", navigationJson.navigation[i].articles[j].id);
+                    articleLi.appendChild(articleLink);
+                }
+            }
+            if (activeActicleId == null) {
+                document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
+                pageId = navigationJson.navigation[0].id + "_header";
+            }
+            else {
+                for (var i = 0; i < navigationJson.navigation.length; i++) {
+                    for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                        if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
+                            document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
+                            pageId = navigationJson.navigation[i].id + "_header";
+                            document.getElementById(activeActicleId).style.color = "#00abec";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        function dropdownSelectChange() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            contentSelected = document.getElementById('wa-dropdown-value');
+            document.getElementById('wa-button-link').href = dropdownSelect.value;
+            contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
+        }
+        function checkDropdownMenuHasMoreThanOneOption() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            if (dropdownSelect.options.length <= 1) {
+                dropdownSelect.disabled = "disabled"
+            }
+        }
+    </script>
+</head>
+<body id="top" class="">
+    <div class="wa-container-documentation wa-container-nested-documentation">
+        <section class="wa-section wa-section-micro">
+            <div class="wa-content wa-content-documentation wa-content-4up">
+                <div class="wa-spacer wa-spacer-docSide">
+                    <div id="wa-navigationLeft" class="wa-navigationLeft" data-control="toggle">
+
+                    </div>
+                    <script>
+                        renderNavigation(navigationJsonStr, activeActicleId);
+                    </script>
+                </div>
+                <div class="wa-spacer wa-spacer-3down wa-spacer-docContent">
+                    <div class="wa-content">
+                        <h1>
+                            {{service_name}}文档
+                        </h1>
+                        <h5>
+                            {{subtitle}}
+                        </h5>
+                        <label for="dropdown-cta" class="wa-dropdown-label">{{tutorial_message}}</label>
+                        {{tutorialSelector}}
+                    </div>
+                    <div class="wa-content wa-content-divided sub-hero-heading">
+                        <h2>
+                            {{service_name}}视频
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+                        {{video_links}}
+                    </div>
+                    <script src="./video-center_files/videocenter.js"></script>
+                    <div class="wa-content">
+                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                    </div>
+                    <div class="wa-content wa-content-divided">
+                        <h2>
+                            最新{{service_name}}更新<a href="{{update_search_links}}"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                        </h2>
+                    </div>
+                    {{updates}}
+                    <div class="wa-content">
+                        <a href="{{update_search_links}}" class="wa-arrowLink">查看更多服务更新</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

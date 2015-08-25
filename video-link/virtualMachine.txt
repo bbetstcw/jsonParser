@@ -1,0 +1,38 @@
+﻿virtual machines
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/18d05657-ea33-4974-9810-c31670aa0fca/Azure%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%AB%98%E7%BA%A7%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.ism/Manifest
+
+bg: 
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%99%9A%E6%8B%9F%E6%9C%BA/Azure%E8%99%9A%E6%8B%9F%E6%9C%BA%E9%AB%98%E7%BA%A7%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.png
+
+description:
+Azure虚拟机高级使用技巧
+课程系列: 快速入门服务: 虚拟机
+视频长度: 4' 9"发布时间: 2015年6月18日
+如何配置服务器的功能和如何配置服务器端口开放
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/a841607b-0f35-4eb1-95fa-6be7fdfbfd60/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%92%8C%E5%88%A0%E9%99%A4%E8%99%9A%E6%8B%9F%E6%9C%BA.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%99%9A%E6%8B%9F%E6%9C%BA/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%92%8C%E5%88%A0%E9%99%A4%E8%99%9A%E6%8B%9F%E6%9C%BA.png
+
+description:
+在Azure门户中创建和删除虚拟机
+课程系列: 快速入门服务: 虚拟机
+视频长度: 4' 42"发布时间: 2015年6月18日
+如何利用Azure门户管理虚拟机
+
+link3:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/d05c84c7-44ec-4ff3-884f-d5f28ac107e0/%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BD%BF%E7%94%A8Azure%E8%99%9A%E6%8B%9F%E6%9C%BA.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%99%9A%E6%8B%9F%E6%9C%BA/%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BD%BF%E7%94%A8Azure%E8%99%9A%E6%8B%9F%E6%9C%BA.png
+
+description:
+管理与使用Azure虚拟机
+课程系列: 快速入门服务: 虚拟机
+视频长度: 4' 27"发布时间: 2015年6月18日
+远程连接虚拟机，在虚拟机中部署应用
+

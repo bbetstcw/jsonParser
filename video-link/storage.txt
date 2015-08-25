@@ -1,0 +1,37 @@
+storage
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/45bd1a47-7e9b-4ec0-9867-46dfb17b5c9d/Azure%E9%AB%98%E7%BA%A7%E5%AD%98%E5%82%A8%E4%BB%8B%E7%BB%8D.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E5%AD%98%E5%82%A8/Azure%E9%AB%98%E7%BA%A7%E5%AD%98%E5%82%A8%E4%BB%8B%E7%BB%8D.png
+
+description:
+Azure高级存储简介
+课程系列: 快速入门服务: 存储
+视频长度: 5' 59"发布时间: 2015年7月14日
+主要介绍了什么是Azure高级存储，高级存储的功能，与普通存储比较的优势，高级存储的可扩展性，高级存储的价格以及如何使用PowerShell创建高级存储账号及DS系列虚拟机。
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/b7f68031-2f21-40c1-a0aa-e65f2deb2f1c/1.%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E5%AD%98%E5%82%A8/1.%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8.png
+
+description:
+在Azure门户中管理存储
+课程系列: 快速入门服务: 存储
+视频长度: 4' 48"发布时间: 2015年6月18日
+什么是存储，如何在Azure中创建存储，统一云存储，异地灾备，RESTful API
+
+link3:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/200c5543-b88e-4949-8855-b5a979046619/Azure%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8F%8A%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E5%AD%98%E5%82%A8/Azure%E7%AE%A1%E7%90%86%E5%AD%98%E5%82%A8%E6%96%87%E4%BB%B6%E5%8F%8A%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7.png
+
+description:
+Azure管理存储文件及管理工具
+课程系列: 快速入门服务: 存储
+视频长度: 4' 47"发布时间: 2015年6月18日
+使用Visual Studio远程管理Azure存储文件

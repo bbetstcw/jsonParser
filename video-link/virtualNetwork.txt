@@ -1,0 +1,26 @@
+virtual network
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/599bd807-b432-48be-9d7e-a21a7f01eee7/Azure%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C%E4%BB%8B%E7%BB%8D.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/Azure%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C%E4%BB%8B%E7%BB%8D.png
+
+description:
+Azure虚拟网络介绍
+课程系列: 快速入门服务: 虚拟网络
+视频长度: 2' 53"发布时间: 2015年6月18日
+虚拟网络（VNet），虚拟网络中的IP地址，区域虚拟网络
+
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/653424c2-6244-486d-9eea-b65a34e866ae/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C.png
+
+description:
+在Azure门户中管理虚拟机网络
+课程系列: 快速入门服务: 虚拟网络
+视频长度: 3' 55"发布时间: 2015年6月18日
+演示创建并管理虚拟网络

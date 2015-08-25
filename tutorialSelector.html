@@ -1,0 +1,11 @@
+<div class="wa-dropdown-container wa-dropdown-medium">
+    <select id="dropdown-cta" class="wa-dropdown" data-control="dropdown dropdown-linker" data-linker="cta" onchange="dropdownSelectChange()">
+        {{options}}
+    </select>
+    <script>
+                                checkDropdownMenuHasMoreThanOneOption();
+    </script>
+
+    <span id="wa-dropdown-value" class="wa-dropdown-value">{{first_option_title}}</span><span class="wa-dropdown-arrow"></span>
+</div>
+<a id="wa-button-link" data-service-name="virtual-machines" href="{{first_option_link}}" class="wa-button wa-button-primary wa-button-mini" data-linker="cta">入门教程</a>

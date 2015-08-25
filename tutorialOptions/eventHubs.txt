@@ -1,0 +1,2 @@
+Get started with Event Hubs 
+https://azure.microsoft.com/zh-cn/documentation/articles/service-bus-event-hubs-csharp-ephcs-getstarted/

@@ -1,0 +1,4 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/backup-configure-vault/">Windows Server</option>
+                            <option value="/zh-cn/documentation/articles/backup-azure-vms/">Azure virtual machine</option>
+                        </select>

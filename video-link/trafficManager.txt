@@ -1,0 +1,25 @@
+traffic manager
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/b10630d9-4a04-435a-b4a2-0ee59dc0eefb/%E4%BD%BF%E7%94%A8PowerShell%E7%AE%A1%E7%90%86Traffic%20Manager.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E6%B5%81%E9%87%8F%E7%AE%A1%E7%90%86%E5%99%A8/%E4%BD%BF%E7%94%A8PowerShell%E7%AE%A1%E7%90%86Traffic-Manager.png
+
+description:
+使用PowerShelll管理Traffic Manager
+课程系列: 快速入门服务: 流量管理器
+视频长度: 5' 12"发布时间: 2015年6月18日
+安装Windows Azure PowerShell，使用Windows Azure PowerShell管理Traffic manager
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/aa1bfaaf-6a8b-4c84-9d4f-f956563d7672/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Traffic%20Manager.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E6%B5%81%E9%87%8F%E7%AE%A1%E7%90%86%E5%99%A8/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86Traffic-Manager.png
+
+description:
+在Azure门户中管理Traffic Manager
+课程系列: 快速入门服务: 流量管理器
+视频长度: 3' 56"发布时间: 2015年6月18日
+Traffic Manager介绍，创建和管理Traffic Manager

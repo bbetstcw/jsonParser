@@ -1,0 +1,7 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/mobile-services-ios-get-started/">iOS</option>
+                            <option value="/zh-cn/documentation/articles/partner-xamarin-mobile-services-android-get-started/">Xamarin Android</option>
+                            <option value="/zh-cn/documentation/articles/partner-xamarin-mobile-services-ios-get-started/">Xamarin iOS</option>
+                            <option value="/zh-cn/documentation/articles/mobile-services-android-get-started/">Android</option>
+                            <option value="/zh-cn/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-get-started/">Windows</option>
+                        </select>

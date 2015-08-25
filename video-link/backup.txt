@@ -1,0 +1,13 @@
+backup
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/9bc8943a-4116-48c6-b818-75e6351f1efd/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%A4%87%E4%BB%BD%E6%9C%8D%E5%8A%A1.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E5%A4%87%E4%BB%BD/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%A4%87%E4%BB%BD%E6%9C%8D%E5%8A%A1.png
+
+description:
+在Azure门户中管理备份服务
+课程系列: 快速入门服务: 备份服务
+视频长度: 4' 9"发布时间: 2015年6月18日
+备份服务介绍，使用备份服务进行备份和恢复

@@ -1,0 +1,6 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/cache-dotnet-how-to-use-azure-redis-cache/">.NET</option>
+                            <option value="/zh-cn/documentation/articles/cache-nodejs-get-started/">Node.js</option>
+                            <option value="/zh-cn/documentation/articles/cache-java-get-started/">Java</option>
+                            <option value="/zh-cn/documentation/articles/cache-python-get-started/">Python</option>
+                        </select>

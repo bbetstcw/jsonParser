@@ -1,0 +1,13 @@
+cdn
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/680ca107-f2ac-4139-b246-91b71d4a889c/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86CDN.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/CDN/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86CDN.png
+
+description:
+在Azure门户中管理CDN
+课程系列: 快速入门服务: CDN
+视频长度: 3' 47"发布时间: 2015年6月18日
+CDN介绍, 演示配置CDN

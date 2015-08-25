@@ -1,0 +1,4 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="https://azure.microsoft.com/zh-cn/documentation/articles/active-directory-howto-tenant/">Get a tenant</option>
+                            <option value="https://azure.microsoft.com/zh-cn/documentation/articles/active-directory-developers-guide/">Develop an app</option>
+                        </select>

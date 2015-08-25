@@ -1,0 +1,20 @@
+[
+    {
+        "update_title": "General availability: G-Series and GS-Series virtual machines in multiple new regions",
+        "update_date": "2015/8/19",
+        "update_description": "The G-Series provides more memory and more local solid-state drive storage than other Azure virtual machines. In addition, the GS-Series supports Premium storage across the East US 2, West US, and West Europe regions.",
+        "update_link": "/test"
+    },
+    {
+        "update_title": "HPC Pack support for Linux",
+        "update_date": "2015/7/9",
+        "update_description": "With the HPC Pack 2012 R2 Update 2, HPC Pack supports Linux virtual machines running on Azure.",
+        "update_link": "/test"
+    },
+    {
+        "update_title": "Azure support for Linux RDMA",
+        "update_date": "2015/7/9",
+        "update_description": "We now support Linux remote direct memory access (RDMA) technology, enabling scientists and engineers to solve complex problems by using simulations running on Azure.",
+        "update_link": "/test"
+    }
+]

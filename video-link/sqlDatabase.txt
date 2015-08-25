@@ -1,0 +1,37 @@
+sql-database
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/0149e2c4-f790-4a4b-89cb-e6d3b7b45ebb/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BA%91%E7%AB%AF.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/SOL%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BA%91%E7%AB%AF.png
+
+description:
+SQL数据库迁移到云端
+课程系列: 快速入门服务: SQL数据库
+视频长度: 3' 44"发布时间: 2015年6月18日
+使用Azure管理门户中的SQL数据库导入和导出服务结合SQL Server Management Studio中的导入和导出数据库层应用程序完成数据库迁移
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/f2d2e6c4-430f-4f35-a617-6e711af08848/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E9%98%B2%E7%81%AB%E5%A2%99%E8%A7%84%E5%88%99%E4%BB%8B%E7%BB%8D.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/SOL%E6%95%B0%E6%8D%AE%E5%BA%93/SQL%E6%95%B0%E6%8D%AE%E5%BA%93%E9%98%B2%E7%81%AB%E5%A2%99%E8%A7%84%E5%88%99%E4%BB%8B%E7%BB%8D.png
+
+description:
+SQL数据库防火墙规则介绍
+课程系列: 快速入门服务: SQL数据库
+视频长度: 3' 49"发布时间: 2015年6月18日
+SQL数据库防火墙规则介绍， 演示管理防火墙规则
+
+link3:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/b59202d9-0101-4eca-a143-44d4e09b8e22/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86SQL%E6%95%B0%E6%8D%AE%E5%BA%93.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/SOL%E6%95%B0%E6%8D%AE%E5%BA%93/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86SQL%E6%95%B0%E6%8D%AE%E5%BA%93.png
+
+description:
+在Azure门户中管理SQL数据库
+课程系列: 快速入门服务: SQL数据库
+视频长度: 3' 52"发布时间: 2015年6月18日
+Windows Azure SQL数据库介绍，创建SQL数据库，修改SQL数据库服务层和性能级别

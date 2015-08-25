@@ -1,0 +1,6 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-blobs/">Blob 存储</option>
+                            <option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-files/">文件存储</option>
+                            <option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-tables/">表存储</option>
+                            <option value="/zh-cn/documentation/articles/storage-dotnet-how-to-use-queues/">队列存储</option>
+                        </select>

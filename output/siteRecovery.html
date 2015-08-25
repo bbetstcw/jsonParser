@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="zh-cn" lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>站点恢复文档 | Azure</title>
+    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <script src="./video-center_files/corejs.js?v=20150813043734" type="text/javascript"></script>
+    <script type="text/javascript" src="./script/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./script/responsive.js"></script>
+    <link href="./video-center_files/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="./video-center_files/azuremediaplayer.min.js"></script>
+    <script>
+        amp.options.flashSS.swf = "http://amp.azure.net/libs/amp/1.1.1/techs/StrobeMediaPlayback.2.0.swf"
+        amp.options.flashSS.plugin = "http://amp.azure.net/libs/amp/1.1.1/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf"
+        amp.options.silverlightSS.xap = "http://amp.azure.net/libs/amp/1.1.1/techs/SmoothStreamingPlayer.xap"
+    </script>
+    <script>
+        var navigationJsonStr = '{"service": " \u7ad9\u70b9\u6062\u590d ", "navigation": [{"group": "\u6982\u8ff0", "articles": [{"id": "link_serviceoverview", "title": " Site Recovery \u6982\u8ff0 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-overview/"}, {"id": "link_pricing", "title": " Site Recovery \u5b9a\u4ef7 ", "link": "/zh-cn/pricing/details/site-recovery/"}, {"id": "link_faq", "title": " \u5e38\u89c1\u95ee\u9898 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-faq/"}], "id": "area_overview"}, {"group": "\u5165\u95e8", "articles": [{"id": "link_components", "title": " \u4e86\u89e3\u7ad9\u70b9\u6062\u590d\u7ec4\u4ef6\u7684\u76f8\u5173\u4fe1\u606f ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-components/"}, {"id": "link_networkmapping", "title": " \u4e86\u89e3\u7f51\u7edc\u6620\u5c04 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-network-mapping/"}, {"id": "link_storagemapping", "title": " \u4e86\u89e3\u5b58\u50a8\u6620\u5c04 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-storage-mapping/"}, {"id": "link_bestpractices", "title": " \u90e8\u7f72\u6700\u4f73\u5b9e\u8df5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-best-practices/"}, {"id": "link_performance", "title": " \u6027\u80fd\u548c\u6269\u5c55\u6d4b\u8bd5 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-performance-and-scaling-testing-on-premises-to-on-premises/"}, {"id": "link_capacity", "title": " Hyper-V \u526f\u672c\u7684\u529f\u80fd\u8ba1\u5212 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-capacity-planning-for-hyper-v-replication/"}, {"id": "link_blog", "title": " \u7ad9\u70b9\u6062\u590d\u535a\u5ba2 ", "link": "http://azure.microsoft.com/blog/tag/azure-site-recovery/"}], "id": "area_getstarted"}, {"group": "\u90e8\u7f72", "articles": [{"id": "link_deploye2a_vmm", "title": " VMM \u7ad9\u70b9\u5230 Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmm-to-azure/"}, {"id": "link_deploye2a_hyperv", "title": " Hyper-V \u7ad9\u70b9\u5230 Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-hyper-v-site-to-azure/"}, {"id": "link_deploye2a_vmware", "title": " VMware \u7ad9\u70b9\u5230 Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmware-to-azure/"}, {"id": "link_deploye2a_physical", "title": " \u7269\u7406\u670d\u52a1\u5668\u5230 Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmware-to-azure/"}, {"id": "link_deploye2e_vmm", "title": " VMM \u7ad9\u70b9\u5230 VMM \u7ad9\u70b9 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmm-to-vmm/"}, {"id": "link_deploye2e_vmmsingle", "title": " \u5355\u4e2a VMM \u670d\u52a1\u5668 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-single-vmm/"}, {"id": "link_deploye2e_vmmsan", "title": " VMM \u7ad9\u70b9\u5230\u5e26 SAN \u7684 VMM \u7ad9\u70b9 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmm-san/"}, {"id": "link_deploye2e_vmware", "title": " VMware \u7ad9\u70b9\u5230 VMware \u7ad9\u70b9 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmware-to-vmware/"}, {"id": "link_sql", "title": " SQL Server \u7684\u6062\u590d\u8ba1\u5212 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-sql/"}], "id": "area_deploy"}, {"group": "\u81ea\u52a8\u5316", "articles": [{"id": "link_deploypowershell", "title": " \u4f7f\u7528 PowerShell \u81ea\u52a8\u5316\u90e8\u7f72 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-deploy-with-powershell/"}, {"id": "link_runbookautomation", "title": " \u5411\u6062\u590d\u8ba1\u5212\u6dfb\u52a0\u81ea\u52a8\u5316\u64cd\u4f5c ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-runbook-automation/"}], "id": "area_automate"}, {"group": "\u7ba1\u7406", "articles": [{"id": "link_registrationprotection", "title": " \u7ba1\u7406\u6ce8\u518c\u548c\u4fdd\u62a4 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-manage-registration-and-protection/"}, {"id": "link_recoveryplans", "title": " \u8bbe\u7f6e\u6062\u590d\u8ba1\u5212 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-create-recovery-plans/"}, {"id": "link_failover", "title": " Site Recovery \u4e2d\u7684\u6545\u969c\u8f6c\u79fb ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-failover/"}, {"id": "link_failbackazure2vmware", "title": " \u4ece Azure \u5230 VMware \u8fdb\u884c\u53cd\u9988 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-failback-azure-to-vmware/"}], "id": "area_manage"}, {"group": "\u6545\u969c\u6392\u9664", "articles": [{"id": "link_monitortroubleshoot", "title": " \u76d1\u89c6\u548c\u6545\u969c\u6392\u9664 ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-monitoring-and-troubleshooting/"}, {"id": "link_forum", "title": " Site Recovery \u8bba\u575b ", "link": "https://social.msdn.microsoft.com/Forums/azure/en-US/home?forum=hypervrecovmgr"}], "id": "area_troubleshooting"}], "id": "SiteRecovery"}'
+        var activeActicleId = null;
+
+        var pageId = null;
+        function renderNavigation(navigationJsonStr, activeActicleId) {
+            navigationJson = JSON.parse(navigationJsonStr);
+            mainDiv = document.getElementById("wa-navigationLeft");
+
+            serviceTitle = document.createElement("a");
+            serviceTitle.id = navigationJson.id;
+            serviceTitle.innerHTML = navigationJson.service;
+            serviceTitle.className = "toggler";
+            mainDiv.appendChild(serviceTitle);
+
+            mainUl = document.createElement("ul");
+            mainUl.className = "toggled";
+            mainDiv.appendChild(mainUl);
+
+            for (var i = 0; i < navigationJson.navigation.length; i++) {
+                groupLi = document.createElement("li");
+                groupLi.id = navigationJson.navigation[i].id + "_header";
+                groupLi.setAttribute("data-control", "toggle");
+                groupLi.setAttribute("data-tag-name", navigationJson.navigation[i].id);
+                groupLi.setAttribute("data-service-name", navigationJson.id);
+                mainUl.appendChild(groupLi);
+                groupTitle = document.createElement("a");
+                groupTitle.innerHTML = navigationJson.navigation[i].group;
+                groupTitle.className = "toggler";
+                groupLi.appendChild(groupTitle);
+                groupUl = document.createElement("ul");
+                groupUl.id = navigationJson.navigation[i].id;
+                groupUl.className = "toggled";
+                groupLi.appendChild(groupUl);
+                for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                    articleLi = document.createElement("li");
+                    groupUl.appendChild(articleLi);
+                    articleLink = document.createElement("a");
+                    articleLink.href = navigationJson.navigation[i].articles[j].link;
+                    articleLink.innerHTML = navigationJson.navigation[i].articles[j].title;
+                    articleLink.id = navigationJson.navigation[i].articles[j].id;
+                    articleLink.setAttribute("data-link-service-name", navigationJson.id);
+                    articleLink.setAttribute("data-link-tag-name", navigationJson.navigation[i].articles[j].id);
+                    articleLi.appendChild(articleLink);
+                }
+            }
+            if (activeActicleId == null) {
+                document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
+                pageId = navigationJson.navigation[0].id + "_header";
+            }
+            else {
+                for (var i = 0; i < navigationJson.navigation.length; i++) {
+                    for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                        if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
+                            document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
+                            pageId = navigationJson.navigation[i].id + "_header";
+                            document.getElementById(activeActicleId).style.color = "#00abec";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        function dropdownSelectChange() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            contentSelected = document.getElementById('wa-dropdown-value');
+            document.getElementById('wa-button-link').href = dropdownSelect.value;
+            contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
+        }
+        function checkDropdownMenuHasMoreThanOneOption() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            if (dropdownSelect.options.length <= 1) {
+                dropdownSelect.disabled = "disabled"
+            }
+        }
+    </script>
+</head>
+<body id="top" class="">
+    <div class="wa-container-documentation wa-container-nested-documentation">
+        <section class="wa-section wa-section-micro">
+            <div class="wa-content wa-content-documentation wa-content-4up">
+                <div class="wa-spacer wa-spacer-docSide">
+                    <div id="wa-navigationLeft" class="wa-navigationLeft" data-control="toggle">
+
+                    </div>
+                    <script>
+                        renderNavigation(navigationJsonStr, activeActicleId);
+                    </script>
+                </div>
+                <div class="wa-spacer wa-spacer-3down wa-spacer-docContent">
+                    <div class="wa-content">
+                        <h1>
+                            站点恢复文档
+                        </h1>
+                        <h5>
+                            了解如何设置、迁移和管理虚拟机
+                        </h5>
+                        <label for="dropdown-cta" class="wa-dropdown-label">创建运行以下系统的 VM：</label>
+                        <p class="tutorial-label">
+    Set up protection from on-premises VMM
+    <a class="wa-button wa-button-primary wa-button-mini" href="https://azure.microsoft.com/zh-cn/documentation/articles/site-recovery-vmm-to-azure/" data-linker="cta">
+        入门教程
+    </a>
+</p>
+
+                    </div>
+                    <div class="wa-content wa-content-divided sub-hero-heading">
+                        <h2>
+                            站点恢复视频
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+                        
+                    </div>
+                    <script src="./video-center_files/videocenter.js"></script>
+                    <div class="wa-content">
+                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                    </div>
+                    <div class="wa-content wa-content-divided">
+                        <h2>
+                            最新站点恢复更新<a href="/test"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            General availability: G-Series and GS-Series virtual machines in multiple new regions
+        </h4>
+        <p class="article-date">
+            2015/8/19
+        </p>
+        <p>
+            The G-Series provides more memory and more local solid-state drive storage than other Azure virtual machines. In addition, the GS-Series supports Premium storage across the East US 2, West US, and West Europe regions.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            HPC Pack support for Linux
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            With the HPC Pack 2012 R2 Update 2, HPC Pack supports Linux virtual machines running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            Azure support for Linux RDMA
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            We now support Linux remote direct memory access (RDMA) technology, enabling scientists and engineers to solve complex problems by using simulations running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+
+                    <div class="wa-content">
+                        <a href="/test" class="wa-arrowLink">查看更多服务更新</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

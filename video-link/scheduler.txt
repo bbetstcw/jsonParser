@@ -1,0 +1,13 @@
+scheduler
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/4000551b-51d2-4124-9370-1f5fe9512ac2/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E7%A8%8B%E5%BA%8FScheduler.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E8%AE%A1%E5%88%92%E7%A8%8B%E5%BA%8F/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E7%A8%8B%E5%BA%8FScheduler.png
+
+description:
+在Azure门户中管理计划程序
+课程系列: 快速入门服务: 计划程序
+视频长度: 3' 5"发布时间: 2015年6月18日
+介绍并演示创建和管理计划程序Scheduler

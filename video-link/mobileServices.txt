@@ -1,0 +1,38 @@
+mobile services
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/056df90e-2803-4f1a-a143-3b69ee75b6ed/Azure%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1/Azure%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.png
+
+description:
+Azure移动服务的数据管理
+课程系列: 快速入门服务: 移动服务
+视频长度: 4' 33"发布时间: 2015年6月18日
+移动服务和通知中心的区别，移动服务的数据管理
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/9ca39a28-f94f-4a5e-9611-d1388e60e694/%E4%BD%BF%E7%94%A8Azure%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1%E8%B7%A8%E5%B9%B3%E5%8F%B0%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1/%E4%BD%BF%E7%94%A8Azure%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1%E8%B7%A8%E5%B9%B3%E5%8F%B0%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91.png
+
+description:
+使用Azure移动服务开发多个平台应用
+课程系列: 快速入门服务: 移动服务
+视频长度: 5' 14"发布时间: 2015年6月18日
+
+Windows Phone应用中使用移动服务，HTML应用中使用移动服务
+
+link3:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/98ec5ec6-c97c-42ed-b56c-1aaa401b9419/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1.png
+
+description:
+在Azure门户中管理移动服务
+课程系列: 快速入门服务: 移动服务
+视频长度: 3' 35"发布时间: 2015年6月18日
+移动服务介绍，创建移动服务，监控移动服务，删除移动服务

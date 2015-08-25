@@ -1,0 +1,11 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/notification-hubs-ios-get-started/">iOS</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-windows-store-dotnet-get-started/">Windows Universal</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-windows-phone-get-started/">Windows Phone</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-android-get-started/">Android</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-kindle-get-started/">Kindle</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-baidu-get-started/">Baidu</option>
+                            <option value="/zh-cn/documentation/articles/partner-xamarin-notification-hubs-ios-get-started/">Xamarin.iOS</option>
+                            <option value="/zh-cn/documentation/articles/partner-xamarin-notification-hubs-android-get-started/">Xamarin.Android</option>
+                            <option value="/zh-cn/documentation/articles/notification-hubs-chrome-get-started/">Chrome</option>
+                        </select>

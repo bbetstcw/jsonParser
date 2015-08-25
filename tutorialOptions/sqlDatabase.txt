@@ -1,0 +1,2 @@
+Get started with SQL Database
+https://azure.microsoft.com/zh-cn/documentation/articles/sql-database-get-started/

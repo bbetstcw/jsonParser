@@ -1,0 +1,25 @@
+notification hubs
+
+link1:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/f416b8b3-6dfe-4340-9c15-72fbec9d4e30/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83.png
+
+description:
+在Azure门户中管理通知中心
+课程系列: 快速入门服务: 通知中心
+视频长度: 4' 5"发布时间: 2015年6月18日
+通知中心组件介绍，创建通知中心，仪表板，删除通知中心
+
+link2:
+http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/e2547e24-475c-4aeb-a98d-5c7fab8e6b5e/%E7%AE%A1%E7%90%86%E5%92%8C%E4%BD%BF%E7%94%A8%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83%E5%8A%9F%E8%83%BD.ism/Manifest
+
+bg:
+http://wacnstorage.blob.core.chinacloudapi.cn/marketing-resource/media/VideoCenter/image/%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83/%E7%AE%A1%E7%90%86%E5%92%8C%E4%BD%BF%E7%94%A8%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83%E5%8A%9F%E8%83%BD.png
+
+description:
+管理和使用通知中心功能
+课程系列: 快速入门服务: 通知中心
+视频长度: 4' 18"发布时间: 2015年6月18日
+创建和管理通知中心，创建代码项目发送通知，创建代码项目接收通知

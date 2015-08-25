@@ -1,0 +1,6 @@
+<select class="wa-dropdown" id="dropdown-cta" data-control="dropdown dropdown-linker" data-linker="cta">
+                            <option value="/zh-cn/documentation/articles/virtual-machines-windows-tutorial/">Windows Server</option>
+                            <option value="/zh-cn/documentation/articles/virtual-machines-linux-tutorial/">Linux</option>
+                            <option value="/zh-cn/documentation/articles/virtual-machines-workload-template-sql-alwayson/">SQL Server</option>
+                            <option value="/zh-cn/documentation/articles/virtual-machines-workload-template-sharepoint/">SharePoint</option>
+                        </select>

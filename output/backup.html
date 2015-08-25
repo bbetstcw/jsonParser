@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="zh-cn" lang="zh">
+<head>
+    <meta charset="utf-8" />
+    <title>备份文档 | Azure</title>
+    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
+    <script src="./video-center_files/corejs.js?v=20150813043734" type="text/javascript"></script>
+    <script type="text/javascript" src="./script/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="./script/responsive.js"></script>
+    <link href="./video-center_files/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="./video-center_files/azuremediaplayer.min.js"></script>
+    <script>
+        amp.options.flashSS.swf = "http://amp.azure.net/libs/amp/1.1.1/techs/StrobeMediaPlayback.2.0.swf"
+        amp.options.flashSS.plugin = "http://amp.azure.net/libs/amp/1.1.1/techs/MSAdaptiveStreamingPlugin-osmf2.0.swf"
+        amp.options.silverlightSS.xap = "http://amp.azure.net/libs/amp/1.1.1/techs/SmoothStreamingPlayer.xap"
+    </script>
+    <script>
+        var navigationJsonStr = '{"service": " \u5907\u4efd ", "navigation": [{"group": "Overview", "articles": [{"id": "link_overview_1", "title": " Azure Backup Overview ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-introduction-to-azure-backup/"}], "id": "area_overview"}, {"group": "Get Started", "articles": [{"id": "link_started_1", "title": " Try Azure Backup in 10 Minutes ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-try-azure-backup-in-10-mins/"}], "id": "area_get_started"}, {"group": "Automate", "articles": [{"id": "link_automation_1", "title": " Deploy and Manage Backup for Windows Server ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-client-automation/"}, {"id": "link_automation_2", "title": " Deploy and Manage Backup for DPM ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-dpm-automation/"}], "id": "area_automation"}, {"group": "Back up Windows Server or Windows Client", "articles": [{"id": "link_windows_1", "title": " Introduction to Windows Server Backup ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-create-vault/"}, {"id": "link_windows_2", "title": " Back up Windows Server to Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-windows-server/"}, {"id": "link_windows_3", "title": " Manage Windows Server Backups ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-manage-windows-server/"}, {"id": "link_windows_4", "title": " Restore Windows Server Data from Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-restore-windows-server/"}], "id": "area_windows_server"}, {"group": "Workload support using DPM", "articles": [{"id": "link_dpm_1", "title": " Introduction to DPM Backup ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-dpm-introduction/"}, {"id": "link_dpm_2", "title": " Back Up a SharePoint Farm to Azure ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-sharepoint/"}], "id": "area_dpm"}, {"group": "Back up IaaS Virtual Machines", "articles": [{"id": "link_vm_1", "title": " Introduction to VM Backup ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-vms-introduction/"}, {"id": "link_vm_2", "title": " Back up Azure Virtual Machines ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-vms/"}, {"id": "link_vm_3", "title": " Manage Virtual Machine Backups ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-manage-vms/"}, {"id": "link_vm_4", "title": " Restore Virtual Machines ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-restore-vms/"}], "id": "area_iaas_vms"}, {"group": "Concepts and FAQ", "articles": [{"id": "link_faq_1", "title": " Azure Backup FAQ ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-faq/"}, {"id": "link_faq_2", "title": " Using Backup to Replace Tape ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-cloud-as-tape/"}, {"id": "link_faq_3", "title": " Offline Seeding ", "link": "https://azure.microsoft.com/zh-cn/documentation/articles/backup-azure-backup-import-export/"}, {"id": "link_faq_4", "title": " Troubleshoot Azure Backup ", "link": "https://msdn.microsoft.com/library/azure/hh831407.aspx"}], "id": "area_concepts_and_faq"}], "id": "Backup"}'
+        var activeActicleId = null;
+
+        var pageId = null;
+        function renderNavigation(navigationJsonStr, activeActicleId) {
+            navigationJson = JSON.parse(navigationJsonStr);
+            mainDiv = document.getElementById("wa-navigationLeft");
+
+            serviceTitle = document.createElement("a");
+            serviceTitle.id = navigationJson.id;
+            serviceTitle.innerHTML = navigationJson.service;
+            serviceTitle.className = "toggler";
+            mainDiv.appendChild(serviceTitle);
+
+            mainUl = document.createElement("ul");
+            mainUl.className = "toggled";
+            mainDiv.appendChild(mainUl);
+
+            for (var i = 0; i < navigationJson.navigation.length; i++) {
+                groupLi = document.createElement("li");
+                groupLi.id = navigationJson.navigation[i].id + "_header";
+                groupLi.setAttribute("data-control", "toggle");
+                groupLi.setAttribute("data-tag-name", navigationJson.navigation[i].id);
+                groupLi.setAttribute("data-service-name", navigationJson.id);
+                mainUl.appendChild(groupLi);
+                groupTitle = document.createElement("a");
+                groupTitle.innerHTML = navigationJson.navigation[i].group;
+                groupTitle.className = "toggler";
+                groupLi.appendChild(groupTitle);
+                groupUl = document.createElement("ul");
+                groupUl.id = navigationJson.navigation[i].id;
+                groupUl.className = "toggled";
+                groupLi.appendChild(groupUl);
+                for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                    articleLi = document.createElement("li");
+                    groupUl.appendChild(articleLi);
+                    articleLink = document.createElement("a");
+                    articleLink.href = navigationJson.navigation[i].articles[j].link;
+                    articleLink.innerHTML = navigationJson.navigation[i].articles[j].title;
+                    articleLink.id = navigationJson.navigation[i].articles[j].id;
+                    articleLink.setAttribute("data-link-service-name", navigationJson.id);
+                    articleLink.setAttribute("data-link-tag-name", navigationJson.navigation[i].articles[j].id);
+                    articleLi.appendChild(articleLink);
+                }
+            }
+            if (activeActicleId == null) {
+                document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
+                pageId = navigationJson.navigation[0].id + "_header";
+            }
+            else {
+                for (var i = 0; i < navigationJson.navigation.length; i++) {
+                    for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
+                        if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
+                            document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
+                            pageId = navigationJson.navigation[i].id + "_header";
+                            document.getElementById(activeActicleId).style.color = "#00abec";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        function dropdownSelectChange() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            contentSelected = document.getElementById('wa-dropdown-value');
+            document.getElementById('wa-button-link').href = dropdownSelect.value;
+            contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
+        }
+        function checkDropdownMenuHasMoreThanOneOption() {
+            dropdownSelect = document.getElementById('dropdown-cta');
+            if (dropdownSelect.options.length <= 1) {
+                dropdownSelect.disabled = "disabled"
+            }
+        }
+    </script>
+</head>
+<body id="top" class="">
+    <div class="wa-container-documentation wa-container-nested-documentation">
+        <section class="wa-section wa-section-micro">
+            <div class="wa-content wa-content-documentation wa-content-4up">
+                <div class="wa-spacer wa-spacer-docSide">
+                    <div id="wa-navigationLeft" class="wa-navigationLeft" data-control="toggle">
+
+                    </div>
+                    <script>
+                        renderNavigation(navigationJsonStr, activeActicleId);
+                    </script>
+                </div>
+                <div class="wa-spacer wa-spacer-3down wa-spacer-docContent">
+                    <div class="wa-content">
+                        <h1>
+                            备份文档
+                        </h1>
+                        <h5>
+                            了解如何设置、迁移和管理虚拟机
+                        </h5>
+                        <label for="dropdown-cta" class="wa-dropdown-label">创建运行以下系统的 VM：</label>
+                        <div class="wa-dropdown-container wa-dropdown-medium">
+    <select id="dropdown-cta" class="wa-dropdown" data-control="dropdown dropdown-linker" data-linker="cta" onchange="dropdownSelectChange()">
+        <option value="/zh-cn/documentation/articles/backup-configure-vault/">
+    Windows Server
+</option>
+<option value="/zh-cn/documentation/articles/backup-azure-vms/">
+    Azure virtual machine
+</option>
+
+    </select>
+    <script>
+                                checkDropdownMenuHasMoreThanOneOption();
+    </script>
+
+    <span id="wa-dropdown-value" class="wa-dropdown-value">Windows Server</span><span class="wa-dropdown-arrow"></span>
+</div>
+<a id="wa-button-link" data-service-name="virtual-machines" href="/zh-cn/documentation/articles/backup-configure-vault/" class="wa-button wa-button-primary wa-button-mini" data-linker="cta">入门教程</a>
+
+                    </div>
+                    <div class="wa-content wa-content-divided sub-hero-heading">
+                        <h2>
+                            备份视频
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+                        <div class="wa-spacer">
+    <a href="http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/9bc8943a-4116-48c6-b818-75e6351f1efd/%E5%9C%A8Azure%E9%97%A8%E6%88%B7%E4%B8%AD%E7%AE%A1%E7%90%86%E5%A4%87%E4%BB%BD%E6%9C%8D%E5%8A%A1.ism/Manifest" data-control="" data-expanding="false" class="wa-video-thumbnail _storage-video-popup" title="在Azure门户中管理备份服务">
+        <img src="./img/在Azure门户中管理备份服务.png" alt="在Azure门户中管理备份服务" class="thumbnail" /><img class="play-icon" src="./img/VideoPlay.svg" />
+        <span class="metadata"><span class="date"><span>2015年6月18日</span><span>4' 9"</span></span></span>
+    </a>
+    <p>
+        备份服务介绍，使用备份服务进行备份和恢复
+    </p>
+</div>
+
+                    </div>
+                    <script src="./video-center_files/videocenter.js"></script>
+                    <div class="wa-content">
+                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                    </div>
+                    <div class="wa-content wa-content-divided">
+                        <h2>
+                            最新备份更新<a href="/test"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                        </h2>
+                    </div>
+                    <div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            General availability: G-Series and GS-Series virtual machines in multiple new regions
+        </h4>
+        <p class="article-date">
+            2015/8/19
+        </p>
+        <p>
+            The G-Series provides more memory and more local solid-state drive storage than other Azure virtual machines. In addition, the GS-Series supports Premium storage across the East US 2, West US, and West Europe regions.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            HPC Pack support for Linux
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            With the HPC Pack 2012 R2 Update 2, HPC Pack supports Linux virtual machines running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+<div class="wa-content wa-content-3up">
+    <div class="wa-serviceUpdate">
+        <h4>
+            Azure support for Linux RDMA
+        </h4>
+        <p class="article-date">
+            2015/7/9
+        </p>
+        <p>
+            We now support Linux remote direct memory access (RDMA) technology, enabling scientists and engineers to solve complex problems by using simulations running on Azure.
+        </p>
+        <a class="wa-arrowLink wa-arrowLink-blue" href="/test">了解更多</a>
+    </div>
+    <a href="/test"></a>
+</div>
+
+                    <div class="wa-content">
+                        <a href="/test" class="wa-arrowLink">查看更多服务更新</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
