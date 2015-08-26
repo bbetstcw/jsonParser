@@ -1,0 +1,19 @@
+2015年06月23日
+SQL  DB  Malmo
+SQL 弹性数据库（SQL Elastic Database）模型预览版上线。
+弹性数据库适用于具有跨大量数据库的不可预测资源需求的工作负载，使您能够在一组数据库之间均分要利用的资源。弹性数据库具有特定服务级别的单个数据库所拥有的全部功能，但也可通过利用弹性数据库池的资源来灵活满足不可预测的需求。更多信息请访问?SQL 数据库服务页面，使用详情请参见弹性数据库文档页面。
+http://www.windowsazure.cn/what-is-new/
+
+
+2015年06月23日
+SQL  Sterling 
+S3 提供高达100数据库吞吐量单位 (DTU) 和所有标准版中可用的功能，
+且在标准版和高级版之间提供更灵活的定价。要全面了解定价情况，请访问?SQL 数据库价格页面。
+http://www.windowsazure.cn/what-is-new/
+
+
+2014年10月16日
+SQL Database
+SQL Database 支持弹性扩展，
+提供更可预测的性能服务预览版上线，借助 Windows Azure 的强大功能，通过弹性扩展实现包含数千个数据库的大规模环境，无论选择哪个服务级别（基本、标准，或高级），均可获得更可预测的性能，并且您可以根据应用程序需求轻松调整性能级别。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

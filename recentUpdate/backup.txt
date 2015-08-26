@@ -1,0 +1,5 @@
+2014年11月26日
+Backup Service
+备份（Backup）功能正式上线。
+Backup 提供可靠、廉价且可扩展的解决方案，使客户能够将其本地数据备份到 Windows Azure。Windows Azure Backup 拥有 99.9% 的服务可用性，提供了运行稳定性。有关详细信息，请访问备份网页，要全面了解定价情况，请访问备份定价详细信息网页。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

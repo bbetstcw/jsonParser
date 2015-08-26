@@ -1,0 +1,12 @@
+2014年06月10日
+Web Sites
+网站（Web Sites）服务在世纪互联运营的 Windows Azure 平台上已正式上线。
+空
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2013年10月10日
+Web Sites  Public Preview
+网站（Web Sites）预览版服务在世纪互联运营的 Windows Azure 平台上已正式上线。
+同时，您现在也可以利用管理门户查看订阅的使用情况（例如可用核数等）。方法是登录管理门户，点击设置、使用情况。
+http://www.windowsazure.cn/community/newsletter/2015/previousyear

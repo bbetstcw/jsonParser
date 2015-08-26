@@ -3,14 +3,16 @@
                        "scheduler":"计划程序", "serviceBus":"服务总线", "siteRecovery":"站点恢复", "sqlDatabase":"SQL 数据库", "storage":"存储", "trafficManager":"流量管理器",
                        "virtualMachine":"虚拟机", "virtualNetwork":"虚拟网络", "websites":"网站"}
 
-import json
+GLOBAL_LINK = r'http(s)?:\/\/azure.microsoft.com(\/zh\-cn)?\/'
 
+import json
+import re
 
 def replaceVideoLink(key):
-    return replaceMultiple("./videoLinkJson/"+key+".json", "video_link_template.html")
+    return replaceMultiple("./videoLinkJson/"+key+".json", "video_link_template.html", 3)
 
 def replaceRecentUpdate(key):
-    return replaceMultiple("./recentUpdateJson/"+"virtualMachine"+".json", "recent_update.html")
+    return replaceMultiple("./recentUpdateJson/"+key+".json", "recent_update.html")
 
 def replaceTutorialSelector(key):
     optionsJsonStr = readFileToString("./tutorialOptionsJson/"+key+".json")
@@ -27,7 +29,7 @@ def replaceTutorialSelector(key):
 def replaceAll(key):
     
     options = []
-    option = json.loads(readFileToString("./contentJson/"+"virtualMachine"+".json"))
+    option = json.loads(readFileToString("./contentJson/"+key+".json"))
     option["navigationJsonStr"] = readFileToString("./navigationJson/"+key+".json").strip().replace("'", "\\'")
     option["service_name"] = SERVICE_TRANSLATION[key]
     option["tutorialSelector"] = replaceTutorialSelector(key)
@@ -38,8 +40,10 @@ def replaceAll(key):
     template = readFileToString("frame.html")
     return replace(template, options)
 
-def replaceMultiple(jsonFileName, templateName):
+def replaceMultiple(jsonFileName, templateName, max = 100):
     options = json.loads(readFileToString(jsonFileName))
+    if len(options)>max:
+        options = options[0:max]
     template = readFileToString(templateName)
     return replace(template, options)
 
@@ -56,6 +60,7 @@ def replace(template, options):
 def getAll():
     for k, v in SERVICE_TRANSLATION.items():
         lines = replaceAll(k)
+        lines = re.sub(GLOBAL_LINK, "/", lines)
         outputFile = open("./output/"+k+".html", "w", encoding="utf8")
         outputFile.writelines(lines);
         outputFile.close()

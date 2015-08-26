@@ -1,0 +1,19 @@
+2015年03月09日
+HDInsight  extend for VM
+HDInsight 可为更多类型的虚拟机提供服务。
+HDInsight 可供客户为不同类型的数据分析工作负载部署不同类型的群集。目前提供的群集类型包括用于查询和分析工作负载的 Hadoop 群集，用于 NoSQL 工作负载的 HBase 群集，以及用于实时事件处理工作负载的 Storm 群集，您可根据角色工作负载的具体情况设置所需的节点规模。详细信息请参阅?HDInsight 服务页面，欲了解价格详情，请访问?HDInsight 定价详细信息页面，使用详情请参见?HDInsight 文档页面。
+http://www.windowsazure.cn/community/newsletter/2015/march
+
+
+2014年11月26日
+HDInsight (GA)
+HDInsight 正式版上线。
+HDInsight 在 Java、.NET 等环境中开发，无需购买和维护硬件，您只需为您的服务付费，并且可以按需扩展至 PB 级别。利用HDInsight，在几分钟内就可创建 Hadoop 数据，轻松集成本地 Hadoop 群集。有关详细信息，请访问HDInsight?网页，要全面了解定价情况，请访问?HDInsight 定价详细信息网页。使用详情请参见?HDInsight 文档?页面 。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2014年09月16日
+HDInsight Public Preview
+HDInsight 预览版上线。
+使用 HDInsight，您可在云中部署 Hadoop，既无需购买新硬件，也无需其他前期成本。HDInsight 集合了微软SQL Server 技术的 Stinger 项目，使Hive的查询性能提高100倍，能够处理来自网络点击流、社交媒体、服务器日志、设备和传感器等来源的非结构化或半结构化数据。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

@@ -1,0 +1,5 @@
+2015年03月31日
+AD Self Service Password Reset
+Active Directory 自助密码重置功能正式版上线。
+通过自助服务密码重置功能，您现在就可以使用与 Office 365 相同的登录体验为目录中的所有用户提供密码重置功能，从而减少用户在忘记密码时呼叫支持人员的次数。Windows Azure 将一些重要任务委托给您的员工，始终允许目录管理员重置密码，服务详情请参阅?Active Directory 服务页面，欲了解价格信息，请访问?Active Directory 价格网页 ，使用详情请参见?Active Directory 文档页面 。
+http://www.windowsazure.cn/community/newsletter/2015/march

@@ -1,0 +1,19 @@
+2015年05月04日
+XIO storage
+高级存储 Premium Storage 功能正式上线。
+高级存储是基于高性能固态硬盘 (SSD) 的存储，旨在支持 I/O 密集型工作负荷，具有非常高的吞吐量和低延迟，借助高级存储，可以设置永久磁盘，并按照应用程序要求配置其大小和性能特征。有关详细信息，请访问高级存储网页，要全面了解定价情况，请访问存储价格网页，使用详情请参见高级存储文档页面。
+http://www.windowsazure.cn/what-is-new/
+
+
+2014年04月16日
+RA-GRS
+RA-GRS 通过提供对复制到辅助位置的数据的“只读”访问权，实现对存储帐户的更高读取可用性。
+启用该功能后，在主要区域无法获取 数据时，可使用辅助位置获取更高可用性。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2015年01月13日
+Azure Files
+Azure Files预览版上线。
+文件存储使用标准 SMB 2.1 协议为应用程序提供共享存储。在虚拟机或云服务中运行的应用程序可以装载文件存储共享以访问文件数据，就像桌面应用程序可以装载典型 SMB 共享一样。任意数量的 Azure 虚拟机或角色可以同时装载并访问文件存储共享。欲了解价格详细信息，请访问存储定价详情页面， 使用详情请参见如何使用 Azure 文件存储页面。
+http://wacn-develop.chinacloudsites.cn/community/newsletter/2015/january

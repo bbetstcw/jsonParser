@@ -1,0 +1,5 @@
+2014年10月16日
+Notification Hubs GA
+通知中心（Notification Hubs）正式版上线。
+我们可以通过在 Windows Azure 通知中心服务中调用百度云推送服务，向 Android 设备发送推送通知。在此之前，我们的 Windows Azure 推送通知已经可以支持向 iOS、Windows Phone、Windows、Android 以及 Kindle 发送推送通知。应用程序开发者必须登录到百度门户，注册成为百度开发者，创建一个云推送项目并获得应用程序相应的标识符（UserId 和 ChannelId），然后从 Windows Azure 管理门户将标识符插入 Windows Azure Notification Hub。开发人员即可在自己的客户端应用程序中更新的 Notification Hub Android SDK 向此 Notification Hub 注册该设备，然后使用更新的 Service Bus/Notification Hub.NET SDK 来发送推送通知，该通知将通过百度云推送服务传递到注册的 Android 设备。帮助开发的详细入门教程位于此处。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

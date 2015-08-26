@@ -1,0 +1,5 @@
+2014年12月17日
+SSD-Cloud
+基于 SSD 存储支持的 D 系列云服务正式上线。
+D 系列虚拟机的特色是固态硬盘 (SSD) 和比 A 系列更快的处理器，而且也适用于Windows Azure 云服务中的 Web 角色或辅助角色。此系列适用于需要更快的 CPU、更好的本地磁盘性能或更大的内存的应用程序。欲了解详细价格信息，请访问云服务定价详情页面。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

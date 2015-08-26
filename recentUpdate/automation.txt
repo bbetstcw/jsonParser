@@ -1,0 +1,5 @@
+2015年04月05日
+Automation Public (Preview )
+Windows Azure 自动化（Automation）功能预览版上线。
+流程自动化可简化云管理，消除耗时的重复性任务，使用 PowerShell 脚本可以集成到任何服务，实现信赖服务的相互集成，节省时间和资金，提高服务可靠性和工作效率。有关详细信息，请访问自动化网页，要全面了解定价情况，请访问自动化定价详细信息网页，使用详情请参见自动化服务文档页面。
+http://www.windowsazure.cn/community/newsletter/2015/april

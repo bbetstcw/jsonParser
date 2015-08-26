@@ -1,0 +1,5 @@
+2015年04月30日
+My SQL
+MySQL Database on Azure 是我们在 Azure 平台上最新推出 MySQL 云数据库服务，
+兼容 MySQL 协议，帮助用户快速部署，提供高可靠、高安全，高可用, 高性价比的数据库，并提供四个不同的版本，性能从低到高按倍数提高。支持弹性伸缩，30天数据备份，可轻松监控的数据库平台。有关详细信息，请访问?MySQL Database on Azure?网页，要全面了解定价情况，请访问MySQL Database on Azure 定价详细信息网页，使用详情请参见 MySQL Database on Azure 服务文档页面。
+http://www.windowsazure.cn/community/newsletter/2015/april

@@ -1,0 +1,12 @@
+2014年04月28日
+Scheduler GA
+Azure 计划程序允许您按任意计划调用操作，如调用 HTTP/S 终结点或将消息发布到存储队列。
+利用计划程序，可在云中创建在 Azure 内部和外部可靠调用服务的作业，并可按需或按定复计划运行这些作业或者为将来日期指定作业。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2014年06月27日
+Scheduler
+Azure 计划程序允许您按任意计划调用操作，如调用 HTTP/S 终结点或将消息发布到存储队列。
+利用计划程序，可在云中创建在 Azure 内部和外部可靠调用服务的作业，并可按需或按定复计划运行这些作业或者为将来日期指定作业。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

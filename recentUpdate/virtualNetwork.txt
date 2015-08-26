@@ -1,0 +1,19 @@
+2015年03月17日
+Virtual Network Update Reverse DNS
+虚拟网络 Virtual Network 的反向 DNS 正式上线。Windows Azure 可为所有 PaaS 和 IaaS 云服务提供反向 DNS 记录。
+该功能可向后兼容所有现有的云服务，可由服务管理 API 和 PowerShell 提供支持，免费提供无需付出额外的成本。 服务详情请参阅?虚拟网络功能页面。
+http://www.windowsazure.cn/community/newsletter/2015/march
+
+
+2015年03月05日
+Virtual Network Update(Network Security Groups, MAC persistence )
+Windows Azure 虚拟网络 Virtual Network 新功能上线，
+本次新上线内容包括：网络安全层， MAC 持久性和强制隧道。通过虚拟网络，您可以控制网络拓扑结构，且将云服务和虚拟机部署在虚拟网络中还可以避免通过公共 Internet 进行访问，增强安全性和独立性。 您可以点击这里了解虚拟网络，欲了解价格详细信息，请访问虚拟网络定价详情页面， 使用详情请参见虚拟网络使用指南页面。
+http://www.windowsazure.cn/community/newsletter/2015/march
+
+
+2015年02月11日
+Virtual Network Update（VNET、TCP）
+Windows Azure 虚拟网络 Virtual Network 功能更新版上线，
+本次新上线内容包括：高性能 VNET 网关， TCP 流限制连接超时， 适用于 SQL Always On 的 ILB，TCP 流限制连接超时等非常具有实用价值的功能。 您可以点击这里了解虚拟网络，欲了解价格详细信息，请访问虚拟网络定价详情页面， 使用详情请参见虚拟网络使用指南页面。
+http://www.windowsazure.cn/community/newsletter/2015/february

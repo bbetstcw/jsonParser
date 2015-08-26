@@ -1,0 +1,19 @@
+2015年04月16日
+CDN HTTPS
+Windows Azure CDN 新增高级版（Premium）的加速服务。
+目前高级版加速服务中仅包含HTTPS协议加速，后续我们会持续增加更多的服务类型。目前如果您想使用 CDN HTTPS 加速服务，请通过支持页面联系 Windows Azure 的支持团队开通 CDN HTTPS 加速服务。
+http://www.windowsazure.cn/community/newsletter/2015/april
+
+
+2014年11月05日
+CDN (GA)
+Azure 内容传送网络 (CDN) 服务正式版对在线直付客户正式开启！
+Windows Azure CDN 将内容缓存到距离客户最近的位置来提高应用程序性能，以便您为客户提供最好的应用程序体验。您可在这里查看详细的服务级别协议。使用详情请参见?Azure CDN 使用指南。要全面了解定价情况，请访问?CDN 服务定价详情网页。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2014年09月01日
+CDN Public Preview
+Azure 内容传送网络 (CDN) 服务正式版对企业客户正式开启！
+您可在这里查看详细的服务级别协议。使用详情请参见?Azure CDN 使用指南。网上支付用户的 CDN 有限试用也在同步进行中，如果您想试用 Azure CDN 服务，请通过支持页面联系 Azure 的支持团队开通 CDN 试用。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

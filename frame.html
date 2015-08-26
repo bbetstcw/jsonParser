@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>{{service_name}}文档 | Azure</title>
-    <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <link rel="stylesheet" type="text/css" href="./style/frame2.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link href="./video-center_files/corecss.css?v=20150813043734" rel="stylesheet" type="text/css">
     <link href="./video-center_files/corecss2.css?v=20150813043734" rel="stylesheet" type="text/css">
@@ -44,6 +44,7 @@
                 groupLi.setAttribute("data-service-name", navigationJson.id);
                 mainUl.appendChild(groupLi);
                 groupTitle = document.createElement("a");
+                groupTitle.setAttribute("onclick", "show('" + navigationJson.navigation[i].id + "_header" + "')");
                 groupTitle.innerHTML = navigationJson.navigation[i].group;
                 groupTitle.className = "toggler";
                 groupLi.appendChild(groupTitle);
@@ -86,12 +87,14 @@
             document.getElementById('wa-button-link').href = dropdownSelect.value;
             contentSelected.innerHTML = dropdownSelect.options[dropdownSelect.selectedIndex].innerHTML;
         }
-        function checkDropdownMenuHasMoreThanOneOption() {
-            dropdownSelect = document.getElementById('dropdown-cta');
-            if (dropdownSelect.options.length <= 1) {
-                dropdownSelect.disabled = "disabled"
-            }
-        }
+
+        // show article-content when click on link
+        $(function () {
+            $(".wa-arrowLink.wa-arrowLink-blue").click(function () {
+                $(this).attr('style', 'display:none');
+                $(this).siblings(".article-content").removeAttr('style');
+            });
+        });
     </script>
 </head>
 <body id="top" class="">
@@ -127,11 +130,11 @@
                     </div>
                     <script src="./video-center_files/videocenter.js"></script>
                     <div class="wa-content">
-                        <a href="/zh-cn/documentation/videos/index/?services=virtual-machines" class="wa-arrowLink">观看更多视频</a>
+                        <a href="/video-center/" class="wa-arrowLink">观看更多视频</a>
                     </div>
                     <div class="wa-content wa-content-divided">
                         <h2>
-                            最新{{service_name}}更新<a href="{{update_search_links}}"><span class="wa-icon wa-icon-misc-rss"></span></a>
+                            最新{{service_name}}更新<a href=""><span class="wa-icon wa-icon-misc-rss"></span></a>
                         </h2>
                     </div>
                     {{updates}}

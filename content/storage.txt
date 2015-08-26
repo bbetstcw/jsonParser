@@ -1,0 +1,3 @@
+了解 Azure 存储以及如何使用 Azure Blob、表、队列和文件创建应用程序
+开始使用：
+/what-is-new/

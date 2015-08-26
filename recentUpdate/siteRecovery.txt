@@ -1,0 +1,12 @@
+2015年02月06日
+Site Recovery GA
+站点恢复 Site Recovery 功能正式版上线。
+站点恢复通过在主站点和恢复站点之间映射虚拟网络，对网络进行自定义。无需干扰主位置的服务，您可以随时测试这些计划。 您也可以通过复制到 Azure 来进一步简化灾难恢复保护并且通过该服务提供的简易性、自动化、可定义恢复计划、运行状况监视和安排好的恢复受益。 请通过站点恢复页面了解详细信息，想要了解详细价格， 请访问站点恢复定价详情网页， 使用详情请参见站点恢复使用指南页面。
+http://www.windowsazure.cn/community/newsletter/2015/february
+
+
+2014年12月17日
+Site Recovery  Public Preview
+站点恢复 Site Recovery 功能预览版上线。
+Windows Azure 站点恢复通过协调复制和恢复站点的专用云来帮助保护重要的应用程序。您可以保护应用程序到自己的第二个站点、宿主站点或者甚至使用 Windows Azure 作为灾难恢复站点，避免生成和管理自己第二位置的花费和麻烦。请通过站点恢复页面了解详细信息，想要了解详细价格，请访问站点恢复定价详情网页
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

@@ -119,6 +119,25 @@ def tutorialOptionParser(file):
 
     return json.dumps(options)
 
+def recentUpdateParser(file):
+    line = file.readline()
+    recentUpdates = []
+    while line!= "":
+        if line[0:3] == '201':
+            update = {}
+            update["update_date"] = line.strip()
+            line = file.readline()
+            update["update_title"] = line.strip()
+            line = file.readline()
+            update["update_description"] = line.strip()
+            line = file.readline()
+            update["update_detail"] = line.strip()
+            line = file.readline()
+            update["update_link"] = line.strip()
+            recentUpdates.append(update)
+        line = file.readline()
+    return json.dumps(recentUpdates)
+
 def parse():
     for k,v in SERVICE_TRANSLATION.items():
         print(k)
@@ -139,4 +158,11 @@ def parse():
         file.close()
         file = open("./tutorialOptionsJson/"+k+".json", "w", encoding= "utf8")
         file.writelines(tutorialOptionJson)
+        file.close()
+        
+        file = open("./recentUpdate/"+k+".txt", "r")
+        recentUpdateJson = recentUpdateParser(file)
+        file.close()
+        file = open("./recentUpdateJson/"+k+".json", "w", encoding= "utf8")
+        file.writelines(recentUpdateJson)
         file.close()

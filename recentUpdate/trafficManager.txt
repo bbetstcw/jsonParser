@@ -1,0 +1,5 @@
+2014年09月25日
+Traffic Manager GA
+Traffic Manager 正式版上线。
+利用 Traffic Manager ，您可以对多个托管 Azure 服务之间的传入流量进行负载平衡，无论这些服务在同一个数据中心内运行还是在中国的不同数据中心内运行。通过有效管理流量，可以确保应用程序具有较高的性能、可用性和恢复能力。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear

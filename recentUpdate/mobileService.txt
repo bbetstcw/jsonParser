@@ -1,0 +1,5 @@
+2014年10月16日
+Mobile Services
+移动服务（Mobile Services）预览版上线。
+客户可以使用 Windows Azure 移动服务在 Windows Azure 平台上快速开发跨平台的移动应用程序，并允许客户添加以下主要功能：离线数据同步、企业 AAD 登录、连接到内部部署数据，以及立即添加大规模可伸缩的跨平台推送通知。为 Windows Azure 客户提供了完整的公共 Windows Azure 移动功能集，在未来几个月内我们将增加特定功能，为诸如中国社会身份验证提供商等 Windows Azure 客户提供帮助。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
