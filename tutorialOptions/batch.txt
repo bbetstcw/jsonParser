@@ -1,0 +1,2 @@
+.NET µÄ Azure Batch ¿âÈëÃÅ
+http://azure.microsoft.com/zh-cn/documentation/articles/batch-dotnet-get-started/

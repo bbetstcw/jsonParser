@@ -1,0 +1,5 @@
+2015Äê06ÔÂ25ÈÕ
+General availability: Azure Application Gateway
+Azure Application Gateway helps you build highly scalable and available applications by providing application-level (HTTP/HTTPS) load balancing and delivery control.
+¿Õ
+http://www.windowsazure.cn/community/newsletter/2015/march

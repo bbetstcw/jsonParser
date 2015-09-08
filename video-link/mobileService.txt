@@ -1,4 +1,4 @@
-mobile services
+﻿mobile services
 
 link1:
 http://wacnvideo.streaming.mediaservices.chinacloudapi.cn/056df90e-2803-4f1a-a143-3b69ee75b6ed/Azure%E7%A7%BB%E5%8A%A8%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%95%B0%E6%8D%AE%E7%AE%A1%E7%90%86.ism/Manifest
@@ -22,7 +22,6 @@ description:
 使用Azure移动服务开发多个平台应用
 课程系列: 快速入门服务: 移动服务
 视频长度: 5' 14"发布时间: 2015年6月18日
-
 Windows Phone应用中使用移动服务，HTML应用中使用移动服务
 
 link3:

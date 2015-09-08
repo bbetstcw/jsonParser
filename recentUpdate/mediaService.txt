@@ -7,7 +7,6 @@ http://www.windowsazure.cn/community/newsletter/2015/march
 
 2015年03月05日
 1、Media Premium Encoding reserved unit Public Preview 2、Media PlayReady public preview 3、Media Live channel hour GA
-
 媒体服务 Media Service 新功能上线。
 媒体服务新上线的功能包括高级编码保留单元预览版，PlayReady 公开预览版。媒体服务为您提供一个专用队列和一组专用带宽容量，让您实现按工作流定制编码速度，数字版权管理和实时媒体同步传输播放，让您的工作效率更高，速度更快，数据更安全。详细信息请访问媒体服务详情页面，要全面了解定价情况，请访问媒体服务定价详细信息网页，使用详情请参照媒体服务文档页面。
 http://www.windowsazure.cn/community/newsletter/2015/march

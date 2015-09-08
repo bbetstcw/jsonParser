@@ -1,3 +1,10 @@
+2014年08月15日
+Internal Load Balancing
+内部负载平衡（Internal Load Balancing）预览版上线。
+借助私有 IP 地址为您的 Windows Azure 虚拟机提供负载平衡。如果您的虚拟机在虚拟网络内，将从虚拟网络访问内部负载平衡端点。如果不在虚拟网络内，则可使用云服务访问。内部负载平衡适合用于创建多层应用程序，并对不对外的应用程序层进行负载平衡。该服务可免费用于虚拟机的标准级服务。
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
 2014年12月01日
 SSD-VM
 基于SSD存储支持的D系列虚拟机正式上线。

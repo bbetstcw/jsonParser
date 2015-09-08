@@ -1,0 +1,2 @@
+创建应用程序网关
+http://go.microsoft.com/fwlink/p/?linkid=616811&clcid=0x804

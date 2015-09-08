@@ -1,0 +1,19 @@
+2015/7/9
+General availability: Azure Batch
+Azure Batch makes it easy to run large-scale parallel and high-performance computing workloads in Azure.
+Пе
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2015/5/11
+Azure Batch Service adds job preparation and release task support
+Azure Batch Service added Job Preparation and Release Task Support
+Пе
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
+
+
+2015/3/26
+Azure Batch for PowerShell update
+Azure PowerShell includes new capabilities to manage Azure Batch services.
+Пе
+http://www.windowsazure.cn/community/newsletter/2015/lastyear
