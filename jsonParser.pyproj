@@ -73,6 +73,7 @@
     <Content Include="frame.html" />
     <Content Include="navigations\hdinsight.txt" />
     <Content Include="navigations\mediaService.txt" />
+    <Content Include="navigations\MFA.txt" />
     <Content Include="navigations\mobileService.txt" />
     <Content Include="navigations\notificationHubs.txt" />
     <Content Include="navigations\redisCache.txt" />
